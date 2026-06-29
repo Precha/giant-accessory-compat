@@ -2,6 +2,7 @@
 """Convert Rack_Fender_Kickstand_Compatibility_202507update.xlsx into data/data.json + data/images/."""
 import json
 import re
+import shutil
 import sys
 import xml.etree.ElementTree as ET
 import zipfile
@@ -150,7 +151,7 @@ def extract_compat(ws, model_rows, *col_to_id_maps):
 
 
 def extract_kickstands(ws, zf, anchors):
-    col_to_media = {row + 1: media for _col, row, media in anchors}
+    row_to_media = {row + 1: media for _col, row, media in anchors}
     dest_dir = IMAGES_DIR / "kickstand"
     products = []
     for r in range(3, ws.max_row + 1):
@@ -162,7 +163,7 @@ def extract_kickstands(ws, zf, anchors):
         bikes_text = str(ws.cell(r, 5).value or "").strip()
         ebikes_text = str(ws.cell(r, 6).value or "").strip()
         image_rel = None
-        media = col_to_media.get(r)
+        media = row_to_media.get(r)
         if media:
             dest = save_image(zf, media, dest_dir, sku)
             image_rel = f"images/kickstand/{dest.name}"
@@ -189,6 +190,8 @@ def build_data(xlsx_path=XLSX_PATH):
     rack_end = find_group_end(ws_fr, rack_start)
 
     models, model_rows = extract_models(ws_fr)
+
+    shutil.rmtree(IMAGES_DIR, ignore_errors=True)
 
     with zipfile.ZipFile(xlsx_path) as zf:
         anchors_fr = load_picture_anchors(zf, "xl/drawings/drawing1.xml", "xl/drawings/_rels/drawing1.xml.rels")
