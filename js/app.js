@@ -1,9 +1,10 @@
 import { findKickstandMatches } from './matching.mjs';
 
-const STATUS_LABEL = { yes: '○ 適用', no: 'X 不適用', accessory: '– 限定配件' };
+const STATUS_SYMBOL = { yes: '○', no: 'X', accessory: '–' };
 const STATUS_CLASS = { yes: 'status-yes', no: 'status-no', accessory: 'status-accessory' };
 
 let DATA = null;
+let STATUS_LABEL = null;
 
 async function loadData() {
   const res = await fetch('data/data.json');
@@ -12,11 +13,16 @@ async function loadData() {
 }
 
 function renderLegend(legend) {
+  STATUS_LABEL = {
+    yes: `${STATUS_SYMBOL.yes} ${legend.yes}`,
+    no: `${STATUS_SYMBOL.no} ${legend.no}`,
+    accessory: `${STATUS_SYMBOL.accessory} ${legend.accessory}`,
+  };
   const el = document.getElementById('legend');
   el.innerHTML = `
-    <span class="legend-item status-yes">○ ${legend.yes}</span>
-    <span class="legend-item status-no">X ${legend.no}</span>
-    <span class="legend-item status-accessory">– ${legend.accessory}</span>
+    <span class="legend-item status-yes">${STATUS_LABEL.yes}</span>
+    <span class="legend-item status-no">${STATUS_LABEL.no}</span>
+    <span class="legend-item status-accessory">${STATUS_LABEL.accessory}</span>
   `;
 }
 
