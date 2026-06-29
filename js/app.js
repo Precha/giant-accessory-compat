@@ -12,6 +12,12 @@ async function loadData() {
   return res.json();
 }
 
+// Image paths in data.json are relative to data/data.json's own directory
+// (e.g. "images/fender/530000050.jpeg"), not to the page root.
+function imagePath(relPath) {
+  return `data/${relPath}`;
+}
+
 function renderLegend(legend) {
   STATUS_LABEL = {
     yes: `${STATUS_SYMBOL.yes} ${legend.yes}`,
@@ -77,7 +83,7 @@ function productCard(product, entry) {
   const img = document.createElement('img');
   img.className = 'card-image';
   if (product.image) {
-    img.src = product.image;
+    img.src = imagePath(product.image);
     img.alt = product.name;
   } else {
     img.hidden = true;
@@ -115,7 +121,7 @@ function kickstandCard(kickstand, hits) {
   const img = document.createElement('img');
   img.className = 'card-image';
   if (kickstand.image) {
-    img.src = kickstand.image;
+    img.src = imagePath(kickstand.image);
     img.alt = kickstand.name;
   } else {
     img.hidden = true;
@@ -188,7 +194,7 @@ function renderProductDetail(category, product) {
   if (product.image) {
     const img = document.createElement('img');
     img.className = 'detail-image';
-    img.src = product.image;
+    img.src = imagePath(product.image);
     img.alt = product.name;
     pane.appendChild(img);
   }
