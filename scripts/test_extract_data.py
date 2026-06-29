@@ -1,6 +1,7 @@
 import unittest
 
 from extract_data import parse_compat_cell, sanitize_sku, slugify
+from extract_data import build_data, XLSX_PATH
 
 
 class SlugifyTests(unittest.TestCase):
@@ -54,6 +55,43 @@ class ParseCompatCellTests(unittest.TestCase):
     def test_unrecognized_symbol_raises(self):
         with self.assertRaises(ValueError):
             parse_compat_cell("???")
+
+
+class BuildDataIntegrationTests(unittest.TestCase):
+    @classmethod
+    def setUpClass(cls):
+        cls.data = build_data(XLSX_PATH)
+
+    def test_counts_match_known_shape_of_the_source_file(self):
+        self.assertEqual(len(self.data["models"]), 35)
+        self.assertEqual(len(self.data["fenders"]), 22)
+        self.assertEqual(len(self.data["racks"]), 16)
+        self.assertEqual(len(self.data["kickstands"]), 3)
+
+    def test_every_model_has_a_compat_entry_for_every_product(self):
+        all_product_ids = {p["id"] for p in self.data["fenders"]} | {p["id"] for p in self.data["racks"]}
+        for model in self.data["models"]:
+            entry = self.data["compat"][model["id"]]
+            self.assertEqual(set(entry.keys()), all_product_ids)
+
+    def test_known_incompatible_pair(self):
+        # GIANT ATX 27.5 vs GIANT SPEEDSHIELD RGX 45 FENDER (sku 530000050) is "X" in the sheet.
+        entry = self.data["compat"]["giant-atx-27-5"]["530000050"]
+        self.assertEqual(entry, {"status": "no"})
+
+    def test_known_compatible_pair_with_note(self):
+        # Liv Alight vs the same fender is "yes" with a seat-tube-strap-mounting-kit note.
+        entry = self.data["compat"]["liv-alight"]["530000050"]
+        self.assertEqual(entry["status"], "yes")
+        self.assertIn("seat tube strap mounting kit", entry["note"])
+
+    def test_fender_and_rack_products_have_image_paths(self):
+        for product in self.data["fenders"] + self.data["racks"]:
+            self.assertIsNotNone(product["image"], product["name"])
+
+    def test_kickstand_text_blocks_are_populated(self):
+        first = self.data["kickstands"][0]
+        self.assertIn("Roam MY21+", first["compatibleBikesText"])
 
 
 if __name__ == "__main__":

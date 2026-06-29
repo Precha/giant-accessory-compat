@@ -1,0 +1,4637 @@
+{
+  "legend": {
+    "yes": "適用",
+    "no": "不適用",
+    "accessory": "僅限配件或特定情況"
+  },
+  "models": [
+    {
+      "id": "giant-atx-27-5",
+      "brand": "GIANT",
+      "name": "ATX 27.5"
+    },
+    {
+      "id": "giant-contend",
+      "brand": "GIANT",
+      "name": "Contend"
+    },
+    {
+      "id": "giant-contend-ar",
+      "brand": "GIANT",
+      "name": "Contend AR"
+    },
+    {
+      "id": "giant-contend-sl-disc",
+      "brand": "GIANT",
+      "name": "Contend SL Disc"
+    },
+    {
+      "id": "giant-cypress",
+      "brand": "GIANT",
+      "name": "Cypress"
+    },
+    {
+      "id": "giant-defy-advanced",
+      "brand": "GIANT",
+      "name": "Defy Advanced"
+    },
+    {
+      "id": "giant-defy-advanced-pro",
+      "brand": "GIANT",
+      "name": "Defy Advanced Pro"
+    },
+    {
+      "id": "giant-defy-advanced-sl",
+      "brand": "GIANT",
+      "name": "Defy Advanced SL"
+    },
+    {
+      "id": "giant-escape",
+      "brand": "GIANT",
+      "name": "Escape"
+    },
+    {
+      "id": "giant-fastroad",
+      "brand": "GIANT",
+      "name": "FastRoad"
+    },
+    {
+      "id": "giant-fastroad-advanced",
+      "brand": "GIANT",
+      "name": "FastRoad Advanced"
+    },
+    {
+      "id": "giant-fastroad-ar",
+      "brand": "GIANT",
+      "name": "FastRoad AR"
+    },
+    {
+      "id": "giant-fastroad-ar-advanced",
+      "brand": "GIANT",
+      "name": "FastRoad AR Advanced"
+    },
+    {
+      "id": "giant-revolt",
+      "brand": "GIANT",
+      "name": "Revolt"
+    },
+    {
+      "id": "giant-revolt-advanced",
+      "brand": "GIANT",
+      "name": "Revolt Advanced"
+    },
+    {
+      "id": "giant-revolt-advanced-pro",
+      "brand": "GIANT",
+      "name": "Revolt Advanced Pro"
+    },
+    {
+      "id": "giant-revolt-x",
+      "brand": "GIANT",
+      "name": "Revolt X"
+    },
+    {
+      "id": "giant-revolt-x-advanced-pro",
+      "brand": "GIANT",
+      "name": "Revolt X Advanced Pro"
+    },
+    {
+      "id": "giant-roam",
+      "brand": "GIANT",
+      "name": "Roam"
+    },
+    {
+      "id": "giant-talon-27-5",
+      "brand": "GIANT",
+      "name": "Talon 27.5"
+    },
+    {
+      "id": "giant-talon-29er",
+      "brand": "GIANT",
+      "name": "Talon 29er"
+    },
+    {
+      "id": "liv-alight",
+      "brand": "Liv",
+      "name": "Alight"
+    },
+    {
+      "id": "liv-alight-disc",
+      "brand": "Liv",
+      "name": "Alight Disc"
+    },
+    {
+      "id": "liv-avail",
+      "brand": "Liv",
+      "name": "Avail"
+    },
+    {
+      "id": "liv-avail-advanced",
+      "brand": "Liv",
+      "name": "Avail Advanced"
+    },
+    {
+      "id": "liv-avail-advanced-pro",
+      "brand": "Liv",
+      "name": "Avail Advanced Pro"
+    },
+    {
+      "id": "liv-avail-ar",
+      "brand": "Liv",
+      "name": "Avail AR"
+    },
+    {
+      "id": "liv-devote",
+      "brand": "Liv",
+      "name": "Devote"
+    },
+    {
+      "id": "liv-devote-advanced",
+      "brand": "Liv",
+      "name": "Devote Advanced"
+    },
+    {
+      "id": "liv-devote-advanced-pro",
+      "brand": "Liv",
+      "name": "Devote Advanced Pro"
+    },
+    {
+      "id": "liv-rove",
+      "brand": "Liv",
+      "name": "Rove"
+    },
+    {
+      "id": "liv-tempt",
+      "brand": "Liv",
+      "name": "Tempt"
+    },
+    {
+      "id": "liv-tempt-29er",
+      "brand": "Liv",
+      "name": "Tempt 29er"
+    },
+    {
+      "id": "liv-thrive",
+      "brand": "Liv",
+      "name": "Thrive"
+    },
+    {
+      "id": "liv-thrive-advanced",
+      "brand": "Liv",
+      "name": "Thrive Advanced"
+    }
+  ],
+  "fenders": [
+    {
+      "id": "530000050",
+      "sku": "530000050",
+      "name": "GIANT SPEEDSHIELD RGX 45 FENDER",
+      "image": "images/fender/530000050.jpeg"
+    },
+    {
+      "id": "530000049",
+      "sku": "530000049",
+      "name": "GIANT SPEEDSHIELD RGX 38 FENDER",
+      "image": "images/fender/530000049.jpeg"
+    },
+    {
+      "id": "540000042",
+      "sku": "540000042",
+      "name": "RGX SEAT TUBE MOUNTING KIT",
+      "image": "images/fender/540000042.png"
+    },
+    {
+      "id": "540000033",
+      "sku": "540000033",
+      "name": "GIANT SPEEDSHIELD RGX 38 FENDER KIT FOR THRIVE",
+      "image": "images/fender/540000033.jpeg"
+    },
+    {
+      "id": "530000043",
+      "sku": "530000043",
+      "name": "REVOLT FENDER SET",
+      "image": "images/fender/530000043.png"
+    },
+    {
+      "id": "530000034",
+      "sku": "530000034",
+      "name": "SPEEDSHIELD DEFY & CONTEND C CALIPER FENDER",
+      "image": "images/fender/530000034.png"
+    },
+    {
+      "id": "530000035",
+      "sku": "530000035",
+      "name": "SPEEDSHIELD DEFY & CONTEND DISC FENDER",
+      "image": "images/fender/530000035.png"
+    },
+    {
+      "id": "530000036",
+      "sku": "530000036",
+      "name": "SPEEDSHIELD RAPID & FASTROAD FENDER",
+      "image": "images/fender/530000036.png"
+    },
+    {
+      "id": "351202",
+      "sku": "351202",
+      "name": "SPEEDSHIELD 26 \"",
+      "image": "images/fender/351202.png"
+    },
+    {
+      "id": "351203",
+      "sku": "351203",
+      "name": "SPEEDSHIELD 700 TOUR",
+      "image": "images/fender/351203.png"
+    },
+    {
+      "id": "351205",
+      "sku": "351205",
+      "name": "SPEEDSHIELD 700 TOUR ALLOY",
+      "image": "images/fender/351205.png"
+    },
+    {
+      "id": "530000015",
+      "sku": "530000015",
+      "name": "GIANT TOUGHROAD 29 FENDER MATT BLACK COLOR",
+      "image": "images/fender/530000015.png"
+    },
+    {
+      "id": "351200",
+      "sku": "351200",
+      "name": "SPEEDSHIELD 700 TOUR CLIP-ON",
+      "image": "images/fender/351200.png"
+    },
+    {
+      "id": "351201",
+      "sku": "351201",
+      "name": "SPEEDSHIELD 700 RACE CLIP-ON",
+      "image": "images/fender/351201.png"
+    },
+    {
+      "id": "530000030",
+      "sku": "530000030",
+      "name": "GIANT PROGUARD ZIP BLACK",
+      "image": "images/fender/530000030.png"
+    },
+    {
+      "id": "530000008",
+      "sku": "530000008",
+      "name": "SPEEDSHIELD CLIP-ON FRONT FENDER",
+      "image": "images/fender/530000008.png"
+    },
+    {
+      "id": "530000009",
+      "sku": "530000009",
+      "name": "SPEEDSHIELD CLIP-ON REAR FENDER",
+      "image": "images/fender/530000009.png"
+    },
+    {
+      "id": "350611",
+      "sku": "350611",
+      "name": "MUDDER FX FENDERS",
+      "image": "images/fender/350611.png"
+    },
+    {
+      "id": "350703",
+      "sku": "350703",
+      "name": "GIANT MIDGARD FSX FRONT FENDER",
+      "image": "images/fender/350703.png"
+    },
+    {
+      "id": "350704",
+      "sku": "350704",
+      "name": "GIANT MIDGARD FSX REAR FENDER",
+      "image": "images/fender/350704.png"
+    },
+    {
+      "id": "350705",
+      "sku": "350705",
+      "name": "GIANT MIDGARD FS FRONT FENDER",
+      "image": "images/fender/350705.png"
+    },
+    {
+      "id": "350706",
+      "sku": "350706",
+      "name": "GIANT MIDGARD FS REAR FENDER",
+      "image": "images/fender/350706.png"
+    }
+  ],
+  "racks": [
+    {
+      "id": "440000038",
+      "sku": "440000038",
+      "name": "GIANT RACK-IT REAR",
+      "image": "images/rack/440000038.png"
+    },
+    {
+      "id": "440000040",
+      "sku": "440000040",
+      "name": "GIANT RACK-IT LITE REAR RACK",
+      "image": "images/rack/440000040.png"
+    },
+    {
+      "id": "440000039",
+      "sku": "440000039",
+      "name": "GIANT RACK-IT REAR RACK - MIK SYSTEM",
+      "image": "images/rack/440000039.png"
+    },
+    {
+      "id": "440000041",
+      "sku": "440000041",
+      "name": "GIANT RACK-IT METRO LITE REAR RACK - MIK SYSTEM",
+      "image": "images/rack/440000041.png"
+    },
+    {
+      "id": "440000003-71053",
+      "sku": "440000003 (71053)",
+      "name": "Giant Rack It Front Rack",
+      "image": "images/rack/440000003-71053.jpeg"
+    },
+    {
+      "id": "710601",
+      "sku": "710601",
+      "name": "GIANT DISC RACK, BLACK",
+      "image": "images/rack/710601.png"
+    },
+    {
+      "id": "710001",
+      "sku": "710001",
+      "name": "26 ALLOY REARRACK BLACK",
+      "image": "images/rack/710001.jpeg"
+    },
+    {
+      "id": "710611",
+      "sku": "710611",
+      "name": "GIANT DISC RACK WITH PUMP MOUNT, BLACK",
+      "image": "images/rack/710611.png"
+    },
+    {
+      "id": "710613-711004",
+      "sku": "710613 (711004)",
+      "name": "REAR CARRIER 700C BLACK WITH PUMP MOUNT",
+      "image": "images/rack/710613-711004.jpeg"
+    },
+    {
+      "id": "710933-71033",
+      "sku": "710933 (71033)",
+      "name": "GIANT RACK-IT [DISC] BLACK",
+      "image": "images/rack/710933-71033.png"
+    },
+    {
+      "id": "711200",
+      "sku": "711200",
+      "name": "RACK-IT TOUR",
+      "image": "images/rack/711200.jpeg"
+    },
+    {
+      "id": "440000037",
+      "sku": "440000037",
+      "name": "GIANT G-2 CLIP-ON SYSTEM ADAPTER KIT",
+      "image": "images/rack/440000037.png"
+    },
+    {
+      "id": "710603",
+      "sku": "710603",
+      "name": "QR CLAMP WITH RACK MOUNTING, 31.8 BLACK",
+      "image": "images/rack/710603.jpeg"
+    },
+    {
+      "id": "710605",
+      "sku": "710605",
+      "name": "QR CLAMP WITH RACK MOUNTING, 34.9 BLACK",
+      "image": "images/rack/710605.jpeg"
+    },
+    {
+      "id": "750570",
+      "sku": "750570",
+      "name": "INTERGRATED RACK MOUNT SEAT COLLAR, BLACK",
+      "image": "images/rack/750570.png"
+    },
+    {
+      "id": "150000053",
+      "sku": "150000053",
+      "name": "INTERGRATED RACK MOUNT D-FUSE SEAT COLLAR, BLACK",
+      "image": "images/rack/150000053.png"
+    }
+  ],
+  "kickstands": [
+    {
+      "id": "500000012",
+      "sku": "500000012",
+      "name": "DIRECT MOUNT KSA 18MM (M6) KICKSTAND TREKKING 24\"~29\" ADJUSTABLE BLACK COLOR",
+      "image": "images/kickstand/500000012.png",
+      "compatibleBikesText": "Roam MY21+\nRove MY21+\nTalon MY24+\nTempt MY24+\nEscape MY20+\nThrive MY23+\nATX MY18+\nARX MY18+\nBeLiv MY18\nCypress DX MY19+\nEnchant MY17+\nFastTour\nFastRoad MY19+ ~ MY23+\nAnyRoad Advanced MY18+\nAlight MY22+\nUX",
+      "compatibleEbikesText": "Vida E+\nTranscend E+\nToughRoad E+ \nFastroad E+ MY18-22\nQuick E+ MY17-19\nExplore E+ MY18-22\nExplore E+ 3/4 MY23\nLafree E+\nAmiti E+ MY18-22\nAmiti E+ 3/4 MY23\nThrive E+ MY20-22\nStance E+ MY19-22\nEmbolden E+ MY19-22\nFathom E+ MY19-22\nTalon E+ MY21/ MY23\nTempt E+ MY21/ MY23\nRevolt E+ MY20-24\nRoam E+ MY21-22\nRove E+ MY22+\nRoad E+ MY18-21"
+    },
+    {
+      "id": "500000013",
+      "sku": "500000013",
+      "name": "DIRECT MOUNT KSA 18MM (M6) KICKSTAND CITY 24\"~29\" ADJUSTABLE BLACK COLOR",
+      "image": "images/kickstand/500000013.png",
+      "compatibleBikesText": "Roam MY21+\nRove MY21+\nTalon MY24+\nTempt MY24+\nEscape MY20+\nThrive MY23+\nATX MY18+\nARX MY18+\nBeLiv MY18\nCypress DX MY19+\nEnchant MY17+\nFastTour\nFastRoad MY19+ ~ MY23+\nAnyRoad Advanced MY18+\nAlight MY22+\nUX",
+      "compatibleEbikesText": ""
+    },
+    {
+      "id": "500000042",
+      "sku": "500000042",
+      "name": "GNT Direct Mount KSA 40mm Kickstand",
+      "image": "images/kickstand/500000042.jpeg",
+      "compatibleBikesText": "",
+      "compatibleEbikesText": "Explore E+ 0/1 Pro - MY23\nExplore E+ 1/2 - MY23\nAmiti E+ Pro - MY23\nAmiti E+ 1/2 - MY23\nStance E+ 0/1 Pro - MY23\nStance E+ 1/2 - MY23\nStance E+ EX - MY23\nStance E+ EX Pro - MY23\nEmbolden E+ 1 Pro - MY23\nEmbolden E+ 1/2 - MY23\nFathom E+ 1/2 EX - MY24\nFathom E+ 2 - MY24\nLurra E+ 1/2 EX - MY24 \nLurra E+ 2 - MY24\n\nExplore E+ MY26\nTalon E+ MY26\nTempt E+ MY26\nAmiti E+ MY26\nAllure E+ MY26\nLurra E+ MY26\nVida E+ MY26"
+    }
+  ],
+  "compat": {
+    "giant-atx-27-5": {
+      "530000050": {
+        "status": "no"
+      },
+      "530000049": {
+        "status": "no"
+      },
+      "540000042": {
+        "status": "accessory"
+      },
+      "540000033": {
+        "status": "accessory"
+      },
+      "530000043": {
+        "status": "no"
+      },
+      "530000034": {
+        "status": "no"
+      },
+      "530000035": {
+        "status": "no"
+      },
+      "530000036": {
+        "status": "no"
+      },
+      "351202": {
+        "status": "no"
+      },
+      "351203": {
+        "status": "no"
+      },
+      "351205": {
+        "status": "no"
+      },
+      "530000015": {
+        "status": "no"
+      },
+      "351200": {
+        "status": "no"
+      },
+      "351201": {
+        "status": "no"
+      },
+      "530000030": {
+        "status": "yes"
+      },
+      "530000008": {
+        "status": "yes"
+      },
+      "530000009": {
+        "status": "yes"
+      },
+      "350611": {
+        "status": "yes"
+      },
+      "350703": {
+        "status": "yes"
+      },
+      "350704": {
+        "status": "yes"
+      },
+      "350705": {
+        "status": "yes"
+      },
+      "350706": {
+        "status": "yes"
+      },
+      "440000038": {
+        "status": "no"
+      },
+      "440000040": {
+        "status": "no"
+      },
+      "440000039": {
+        "status": "no"
+      },
+      "440000041": {
+        "status": "no"
+      },
+      "440000003-71053": {
+        "status": "no"
+      },
+      "710601": {
+        "status": "yes"
+      },
+      "710001": {
+        "status": "yes"
+      },
+      "710611": {
+        "status": "yes"
+      },
+      "710613-711004": {
+        "status": "yes"
+      },
+      "710933-71033": {
+        "status": "no"
+      },
+      "711200": {
+        "status": "yes"
+      },
+      "440000037": {
+        "status": "accessory"
+      },
+      "710603": {
+        "status": "accessory"
+      },
+      "710605": {
+        "status": "accessory"
+      },
+      "750570": {
+        "status": "accessory"
+      },
+      "150000053": {
+        "status": "accessory"
+      }
+    },
+    "giant-contend": {
+      "530000050": {
+        "status": "no"
+      },
+      "530000049": {
+        "status": "no"
+      },
+      "540000042": {
+        "status": "accessory"
+      },
+      "540000033": {
+        "status": "accessory"
+      },
+      "530000043": {
+        "status": "no"
+      },
+      "530000034": {
+        "status": "no"
+      },
+      "530000035": {
+        "status": "no"
+      },
+      "530000036": {
+        "status": "no"
+      },
+      "351202": {
+        "status": "no"
+      },
+      "351203": {
+        "status": "no"
+      },
+      "351205": {
+        "status": "no"
+      },
+      "530000015": {
+        "status": "no"
+      },
+      "351200": {
+        "status": "no"
+      },
+      "351201": {
+        "status": "no"
+      },
+      "530000030": {
+        "status": "accessory"
+      },
+      "530000008": {
+        "status": "accessory"
+      },
+      "530000009": {
+        "status": "accessory"
+      },
+      "350611": {
+        "status": "accessory"
+      },
+      "350703": {
+        "status": "accessory"
+      },
+      "350704": {
+        "status": "accessory"
+      },
+      "350705": {
+        "status": "accessory"
+      },
+      "350706": {
+        "status": "accessory"
+      },
+      "440000038": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "440000040": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "440000039": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "440000041": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "440000003-71053": {
+        "status": "no"
+      },
+      "710601": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710001": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710611": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710613-711004": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710933-71033": {
+        "status": "no"
+      },
+      "711200": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "440000037": {
+        "status": "accessory"
+      },
+      "710603": {
+        "status": "accessory"
+      },
+      "710605": {
+        "status": "accessory"
+      },
+      "750570": {
+        "status": "accessory"
+      },
+      "150000053": {
+        "status": "accessory"
+      }
+    },
+    "giant-contend-ar": {
+      "530000050": {
+        "status": "no"
+      },
+      "530000049": {
+        "status": "no"
+      },
+      "540000042": {
+        "status": "accessory"
+      },
+      "540000033": {
+        "status": "accessory"
+      },
+      "530000043": {
+        "status": "no"
+      },
+      "530000034": {
+        "status": "no"
+      },
+      "530000035": {
+        "status": "no"
+      },
+      "530000036": {
+        "status": "no"
+      },
+      "351202": {
+        "status": "no"
+      },
+      "351203": {
+        "status": "no"
+      },
+      "351205": {
+        "status": "no"
+      },
+      "530000015": {
+        "status": "no"
+      },
+      "351200": {
+        "status": "no"
+      },
+      "351201": {
+        "status": "no"
+      },
+      "530000030": {
+        "status": "accessory"
+      },
+      "530000008": {
+        "status": "accessory"
+      },
+      "530000009": {
+        "status": "accessory"
+      },
+      "350611": {
+        "status": "accessory"
+      },
+      "350703": {
+        "status": "accessory"
+      },
+      "350704": {
+        "status": "accessory"
+      },
+      "350705": {
+        "status": "accessory"
+      },
+      "350706": {
+        "status": "accessory"
+      },
+      "440000038": {
+        "status": "yes"
+      },
+      "440000040": {
+        "status": "yes"
+      },
+      "440000039": {
+        "status": "yes"
+      },
+      "440000041": {
+        "status": "yes"
+      },
+      "440000003-71053": {
+        "status": "no"
+      },
+      "710601": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710001": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710611": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710613-711004": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710933-71033": {
+        "status": "no"
+      },
+      "711200": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "440000037": {
+        "status": "accessory"
+      },
+      "710603": {
+        "status": "accessory"
+      },
+      "710605": {
+        "status": "accessory"
+      },
+      "750570": {
+        "status": "accessory"
+      },
+      "150000053": {
+        "status": "accessory"
+      }
+    },
+    "giant-contend-sl-disc": {
+      "530000050": {
+        "status": "no"
+      },
+      "530000049": {
+        "status": "no"
+      },
+      "540000042": {
+        "status": "accessory"
+      },
+      "540000033": {
+        "status": "accessory"
+      },
+      "530000043": {
+        "status": "no"
+      },
+      "530000034": {
+        "status": "no"
+      },
+      "530000035": {
+        "status": "no"
+      },
+      "530000036": {
+        "status": "no"
+      },
+      "351202": {
+        "status": "no"
+      },
+      "351203": {
+        "status": "no"
+      },
+      "351205": {
+        "status": "no"
+      },
+      "530000015": {
+        "status": "no"
+      },
+      "351200": {
+        "status": "no"
+      },
+      "351201": {
+        "status": "no"
+      },
+      "530000030": {
+        "status": "accessory"
+      },
+      "530000008": {
+        "status": "accessory"
+      },
+      "530000009": {
+        "status": "accessory"
+      },
+      "350611": {
+        "status": "accessory"
+      },
+      "350703": {
+        "status": "accessory"
+      },
+      "350704": {
+        "status": "accessory"
+      },
+      "350705": {
+        "status": "accessory"
+      },
+      "350706": {
+        "status": "accessory"
+      },
+      "440000038": {
+        "status": "yes"
+      },
+      "440000040": {
+        "status": "yes"
+      },
+      "440000039": {
+        "status": "yes"
+      },
+      "440000041": {
+        "status": "yes"
+      },
+      "440000003-71053": {
+        "status": "no"
+      },
+      "710601": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710001": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710611": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710613-711004": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710933-71033": {
+        "status": "no"
+      },
+      "711200": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "440000037": {
+        "status": "accessory"
+      },
+      "710603": {
+        "status": "accessory"
+      },
+      "710605": {
+        "status": "accessory"
+      },
+      "750570": {
+        "status": "accessory"
+      },
+      "150000053": {
+        "status": "accessory"
+      }
+    },
+    "giant-cypress": {
+      "530000050": {
+        "status": "no"
+      },
+      "530000049": {
+        "status": "no"
+      },
+      "540000042": {
+        "status": "accessory"
+      },
+      "540000033": {
+        "status": "accessory"
+      },
+      "530000043": {
+        "status": "no"
+      },
+      "530000034": {
+        "status": "no"
+      },
+      "530000035": {
+        "status": "no"
+      },
+      "530000036": {
+        "status": "no"
+      },
+      "351202": {
+        "status": "no"
+      },
+      "351203": {
+        "status": "no"
+      },
+      "351205": {
+        "status": "no"
+      },
+      "530000015": {
+        "status": "no"
+      },
+      "351200": {
+        "status": "no"
+      },
+      "351201": {
+        "status": "no"
+      },
+      "530000030": {
+        "status": "yes"
+      },
+      "530000008": {
+        "status": "yes"
+      },
+      "530000009": {
+        "status": "yes"
+      },
+      "350611": {
+        "status": "yes"
+      },
+      "350703": {
+        "status": "yes"
+      },
+      "350704": {
+        "status": "yes"
+      },
+      "350705": {
+        "status": "yes"
+      },
+      "350706": {
+        "status": "yes"
+      },
+      "440000038": {
+        "status": "yes"
+      },
+      "440000040": {
+        "status": "yes"
+      },
+      "440000039": {
+        "status": "yes"
+      },
+      "440000041": {
+        "status": "yes"
+      },
+      "440000003-71053": {
+        "status": "no"
+      },
+      "710601": {
+        "status": "yes"
+      },
+      "710001": {
+        "status": "yes"
+      },
+      "710611": {
+        "status": "yes"
+      },
+      "710613-711004": {
+        "status": "yes"
+      },
+      "710933-71033": {
+        "status": "no"
+      },
+      "711200": {
+        "status": "yes"
+      },
+      "440000037": {
+        "status": "accessory"
+      },
+      "710603": {
+        "status": "accessory"
+      },
+      "710605": {
+        "status": "accessory"
+      },
+      "750570": {
+        "status": "accessory"
+      },
+      "150000053": {
+        "status": "accessory"
+      }
+    },
+    "giant-defy-advanced": {
+      "530000050": {
+        "status": "no"
+      },
+      "530000049": {
+        "status": "no"
+      },
+      "540000042": {
+        "status": "accessory"
+      },
+      "540000033": {
+        "status": "accessory"
+      },
+      "530000043": {
+        "status": "no"
+      },
+      "530000034": {
+        "status": "no"
+      },
+      "530000035": {
+        "status": "no"
+      },
+      "530000036": {
+        "status": "no"
+      },
+      "351202": {
+        "status": "no"
+      },
+      "351203": {
+        "status": "no"
+      },
+      "351205": {
+        "status": "no"
+      },
+      "530000015": {
+        "status": "no"
+      },
+      "351200": {
+        "status": "no"
+      },
+      "351201": {
+        "status": "no"
+      },
+      "530000030": {
+        "status": "accessory"
+      },
+      "530000008": {
+        "status": "accessory"
+      },
+      "530000009": {
+        "status": "accessory"
+      },
+      "350611": {
+        "status": "accessory"
+      },
+      "350703": {
+        "status": "accessory"
+      },
+      "350704": {
+        "status": "accessory"
+      },
+      "350705": {
+        "status": "accessory"
+      },
+      "350706": {
+        "status": "accessory"
+      },
+      "440000038": {
+        "status": "yes"
+      },
+      "440000040": {
+        "status": "yes"
+      },
+      "440000039": {
+        "status": "yes"
+      },
+      "440000041": {
+        "status": "yes"
+      },
+      "440000003-71053": {
+        "status": "no"
+      },
+      "710601": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710001": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710611": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710613-711004": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710933-71033": {
+        "status": "no"
+      },
+      "711200": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "440000037": {
+        "status": "accessory"
+      },
+      "710603": {
+        "status": "accessory"
+      },
+      "710605": {
+        "status": "accessory"
+      },
+      "750570": {
+        "status": "accessory"
+      },
+      "150000053": {
+        "status": "accessory"
+      }
+    },
+    "giant-defy-advanced-pro": {
+      "530000050": {
+        "status": "no"
+      },
+      "530000049": {
+        "status": "no"
+      },
+      "540000042": {
+        "status": "accessory"
+      },
+      "540000033": {
+        "status": "accessory"
+      },
+      "530000043": {
+        "status": "no"
+      },
+      "530000034": {
+        "status": "no"
+      },
+      "530000035": {
+        "status": "no"
+      },
+      "530000036": {
+        "status": "no"
+      },
+      "351202": {
+        "status": "no"
+      },
+      "351203": {
+        "status": "no"
+      },
+      "351205": {
+        "status": "no"
+      },
+      "530000015": {
+        "status": "no"
+      },
+      "351200": {
+        "status": "no"
+      },
+      "351201": {
+        "status": "no"
+      },
+      "530000030": {
+        "status": "accessory"
+      },
+      "530000008": {
+        "status": "accessory"
+      },
+      "530000009": {
+        "status": "accessory"
+      },
+      "350611": {
+        "status": "accessory"
+      },
+      "350703": {
+        "status": "accessory"
+      },
+      "350704": {
+        "status": "accessory"
+      },
+      "350705": {
+        "status": "accessory"
+      },
+      "350706": {
+        "status": "accessory"
+      },
+      "440000038": {
+        "status": "yes"
+      },
+      "440000040": {
+        "status": "yes"
+      },
+      "440000039": {
+        "status": "yes"
+      },
+      "440000041": {
+        "status": "yes"
+      },
+      "440000003-71053": {
+        "status": "no"
+      },
+      "710601": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710001": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710611": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710613-711004": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710933-71033": {
+        "status": "no"
+      },
+      "711200": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "440000037": {
+        "status": "accessory"
+      },
+      "710603": {
+        "status": "accessory"
+      },
+      "710605": {
+        "status": "accessory"
+      },
+      "750570": {
+        "status": "accessory"
+      },
+      "150000053": {
+        "status": "accessory"
+      }
+    },
+    "giant-defy-advanced-sl": {
+      "530000050": {
+        "status": "no"
+      },
+      "530000049": {
+        "status": "no"
+      },
+      "540000042": {
+        "status": "accessory"
+      },
+      "540000033": {
+        "status": "accessory"
+      },
+      "530000043": {
+        "status": "no"
+      },
+      "530000034": {
+        "status": "no"
+      },
+      "530000035": {
+        "status": "no"
+      },
+      "530000036": {
+        "status": "no"
+      },
+      "351202": {
+        "status": "no"
+      },
+      "351203": {
+        "status": "no"
+      },
+      "351205": {
+        "status": "no"
+      },
+      "530000015": {
+        "status": "no"
+      },
+      "351200": {
+        "status": "no"
+      },
+      "351201": {
+        "status": "no"
+      },
+      "530000030": {
+        "status": "accessory"
+      },
+      "530000008": {
+        "status": "accessory"
+      },
+      "530000009": {
+        "status": "accessory"
+      },
+      "350611": {
+        "status": "accessory"
+      },
+      "350703": {
+        "status": "accessory"
+      },
+      "350704": {
+        "status": "accessory"
+      },
+      "350705": {
+        "status": "accessory"
+      },
+      "350706": {
+        "status": "accessory"
+      },
+      "440000038": {
+        "status": "yes"
+      },
+      "440000040": {
+        "status": "yes"
+      },
+      "440000039": {
+        "status": "yes"
+      },
+      "440000041": {
+        "status": "yes"
+      },
+      "440000003-71053": {
+        "status": "no"
+      },
+      "710601": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710001": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710611": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710613-711004": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710933-71033": {
+        "status": "no"
+      },
+      "711200": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "440000037": {
+        "status": "accessory"
+      },
+      "710603": {
+        "status": "accessory"
+      },
+      "710605": {
+        "status": "accessory"
+      },
+      "750570": {
+        "status": "accessory"
+      },
+      "150000053": {
+        "status": "accessory"
+      }
+    },
+    "giant-escape": {
+      "530000050": {
+        "status": "yes",
+        "note": "need the seat tube strap mounting kit"
+      },
+      "530000049": {
+        "status": "no"
+      },
+      "540000042": {
+        "status": "accessory"
+      },
+      "540000033": {
+        "status": "accessory"
+      },
+      "530000043": {
+        "status": "no"
+      },
+      "530000034": {
+        "status": "no"
+      },
+      "530000035": {
+        "status": "no"
+      },
+      "530000036": {
+        "status": "no"
+      },
+      "351202": {
+        "status": "no"
+      },
+      "351203": {
+        "status": "no"
+      },
+      "351205": {
+        "status": "no"
+      },
+      "530000015": {
+        "status": "no"
+      },
+      "351200": {
+        "status": "no"
+      },
+      "351201": {
+        "status": "no"
+      },
+      "530000030": {
+        "status": "accessory"
+      },
+      "530000008": {
+        "status": "accessory"
+      },
+      "530000009": {
+        "status": "accessory"
+      },
+      "350611": {
+        "status": "accessory"
+      },
+      "350703": {
+        "status": "accessory"
+      },
+      "350704": {
+        "status": "accessory"
+      },
+      "350705": {
+        "status": "accessory"
+      },
+      "350706": {
+        "status": "accessory"
+      },
+      "440000038": {
+        "status": "yes"
+      },
+      "440000040": {
+        "status": "yes"
+      },
+      "440000039": {
+        "status": "yes"
+      },
+      "440000041": {
+        "status": "yes"
+      },
+      "440000003-71053": {
+        "status": "no"
+      },
+      "710601": {
+        "status": "yes"
+      },
+      "710001": {
+        "status": "yes"
+      },
+      "710611": {
+        "status": "yes"
+      },
+      "710613-711004": {
+        "status": "yes"
+      },
+      "710933-71033": {
+        "status": "no"
+      },
+      "711200": {
+        "status": "yes"
+      },
+      "440000037": {
+        "status": "accessory"
+      },
+      "710603": {
+        "status": "accessory"
+      },
+      "710605": {
+        "status": "accessory"
+      },
+      "750570": {
+        "status": "accessory"
+      },
+      "150000053": {
+        "status": "accessory"
+      }
+    },
+    "giant-fastroad": {
+      "530000050": {
+        "status": "yes",
+        "note": "need the seat tube strap mounting kit"
+      },
+      "530000049": {
+        "status": "no"
+      },
+      "540000042": {
+        "status": "accessory"
+      },
+      "540000033": {
+        "status": "accessory"
+      },
+      "530000043": {
+        "status": "no"
+      },
+      "530000034": {
+        "status": "no"
+      },
+      "530000035": {
+        "status": "no"
+      },
+      "530000036": {
+        "status": "no"
+      },
+      "351202": {
+        "status": "no"
+      },
+      "351203": {
+        "status": "no"
+      },
+      "351205": {
+        "status": "no"
+      },
+      "530000015": {
+        "status": "no"
+      },
+      "351200": {
+        "status": "no"
+      },
+      "351201": {
+        "status": "no"
+      },
+      "530000030": {
+        "status": "accessory"
+      },
+      "530000008": {
+        "status": "accessory"
+      },
+      "530000009": {
+        "status": "accessory"
+      },
+      "350611": {
+        "status": "accessory"
+      },
+      "350703": {
+        "status": "accessory"
+      },
+      "350704": {
+        "status": "accessory"
+      },
+      "350705": {
+        "status": "accessory"
+      },
+      "350706": {
+        "status": "accessory"
+      },
+      "440000038": {
+        "status": "yes"
+      },
+      "440000040": {
+        "status": "yes"
+      },
+      "440000039": {
+        "status": "yes"
+      },
+      "440000041": {
+        "status": "yes"
+      },
+      "440000003-71053": {
+        "status": "yes"
+      },
+      "710601": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710001": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710611": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710613-711004": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710933-71033": {
+        "status": "no"
+      },
+      "711200": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "440000037": {
+        "status": "accessory"
+      },
+      "710603": {
+        "status": "accessory"
+      },
+      "710605": {
+        "status": "accessory"
+      },
+      "750570": {
+        "status": "accessory"
+      },
+      "150000053": {
+        "status": "accessory"
+      }
+    },
+    "giant-fastroad-advanced": {
+      "530000050": {
+        "status": "yes",
+        "note": "need the seat tube strap mounting kit"
+      },
+      "530000049": {
+        "status": "no"
+      },
+      "540000042": {
+        "status": "accessory"
+      },
+      "540000033": {
+        "status": "accessory"
+      },
+      "530000043": {
+        "status": "yes"
+      },
+      "530000034": {
+        "status": "no"
+      },
+      "530000035": {
+        "status": "no"
+      },
+      "530000036": {
+        "status": "no"
+      },
+      "351202": {
+        "status": "no"
+      },
+      "351203": {
+        "status": "no"
+      },
+      "351205": {
+        "status": "no"
+      },
+      "530000015": {
+        "status": "no"
+      },
+      "351200": {
+        "status": "no"
+      },
+      "351201": {
+        "status": "no"
+      },
+      "530000030": {
+        "status": "accessory"
+      },
+      "530000008": {
+        "status": "accessory"
+      },
+      "530000009": {
+        "status": "accessory"
+      },
+      "350611": {
+        "status": "accessory"
+      },
+      "350703": {
+        "status": "accessory"
+      },
+      "350704": {
+        "status": "accessory"
+      },
+      "350705": {
+        "status": "accessory"
+      },
+      "350706": {
+        "status": "accessory"
+      },
+      "440000038": {
+        "status": "yes"
+      },
+      "440000040": {
+        "status": "yes"
+      },
+      "440000039": {
+        "status": "yes"
+      },
+      "440000041": {
+        "status": "yes"
+      },
+      "440000003-71053": {
+        "status": "yes"
+      },
+      "710601": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710001": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710611": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710613-711004": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710933-71033": {
+        "status": "no"
+      },
+      "711200": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "440000037": {
+        "status": "accessory"
+      },
+      "710603": {
+        "status": "accessory"
+      },
+      "710605": {
+        "status": "accessory"
+      },
+      "750570": {
+        "status": "accessory"
+      },
+      "150000053": {
+        "status": "accessory"
+      }
+    },
+    "giant-fastroad-ar": {
+      "530000050": {
+        "status": "yes",
+        "note": "need the seat tube strap mounting kit"
+      },
+      "530000049": {
+        "status": "no"
+      },
+      "540000042": {
+        "status": "accessory"
+      },
+      "540000033": {
+        "status": "accessory"
+      },
+      "530000043": {
+        "status": "no"
+      },
+      "530000034": {
+        "status": "no"
+      },
+      "530000035": {
+        "status": "no"
+      },
+      "530000036": {
+        "status": "no"
+      },
+      "351202": {
+        "status": "no"
+      },
+      "351203": {
+        "status": "no"
+      },
+      "351205": {
+        "status": "no"
+      },
+      "530000015": {
+        "status": "no"
+      },
+      "351200": {
+        "status": "no"
+      },
+      "351201": {
+        "status": "no"
+      },
+      "530000030": {
+        "status": "accessory"
+      },
+      "530000008": {
+        "status": "accessory"
+      },
+      "530000009": {
+        "status": "accessory"
+      },
+      "350611": {
+        "status": "accessory"
+      },
+      "350703": {
+        "status": "accessory"
+      },
+      "350704": {
+        "status": "accessory"
+      },
+      "350705": {
+        "status": "accessory"
+      },
+      "350706": {
+        "status": "accessory"
+      },
+      "440000038": {
+        "status": "yes"
+      },
+      "440000040": {
+        "status": "yes"
+      },
+      "440000039": {
+        "status": "yes"
+      },
+      "440000041": {
+        "status": "yes"
+      },
+      "440000003-71053": {
+        "status": "yes"
+      },
+      "710601": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710001": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710611": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710613-711004": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710933-71033": {
+        "status": "no"
+      },
+      "711200": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "440000037": {
+        "status": "accessory"
+      },
+      "710603": {
+        "status": "accessory"
+      },
+      "710605": {
+        "status": "accessory"
+      },
+      "750570": {
+        "status": "accessory"
+      },
+      "150000053": {
+        "status": "accessory"
+      }
+    },
+    "giant-fastroad-ar-advanced": {
+      "530000050": {
+        "status": "yes",
+        "note": "need the seat tube strap mounting kit"
+      },
+      "530000049": {
+        "status": "no"
+      },
+      "540000042": {
+        "status": "accessory"
+      },
+      "540000033": {
+        "status": "accessory"
+      },
+      "530000043": {
+        "status": "yes"
+      },
+      "530000034": {
+        "status": "no"
+      },
+      "530000035": {
+        "status": "no"
+      },
+      "530000036": {
+        "status": "no"
+      },
+      "351202": {
+        "status": "no"
+      },
+      "351203": {
+        "status": "no"
+      },
+      "351205": {
+        "status": "no"
+      },
+      "530000015": {
+        "status": "no"
+      },
+      "351200": {
+        "status": "no"
+      },
+      "351201": {
+        "status": "no"
+      },
+      "530000030": {
+        "status": "accessory"
+      },
+      "530000008": {
+        "status": "accessory"
+      },
+      "530000009": {
+        "status": "accessory"
+      },
+      "350611": {
+        "status": "accessory"
+      },
+      "350703": {
+        "status": "accessory"
+      },
+      "350704": {
+        "status": "accessory"
+      },
+      "350705": {
+        "status": "accessory"
+      },
+      "350706": {
+        "status": "accessory"
+      },
+      "440000038": {
+        "status": "yes"
+      },
+      "440000040": {
+        "status": "yes"
+      },
+      "440000039": {
+        "status": "yes"
+      },
+      "440000041": {
+        "status": "yes"
+      },
+      "440000003-71053": {
+        "status": "yes"
+      },
+      "710601": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710001": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710611": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710613-711004": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710933-71033": {
+        "status": "no"
+      },
+      "711200": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "440000037": {
+        "status": "accessory"
+      },
+      "710603": {
+        "status": "accessory"
+      },
+      "710605": {
+        "status": "accessory"
+      },
+      "750570": {
+        "status": "accessory"
+      },
+      "150000053": {
+        "status": "accessory"
+      }
+    },
+    "giant-revolt": {
+      "530000050": {
+        "status": "yes"
+      },
+      "530000049": {
+        "status": "no"
+      },
+      "540000042": {
+        "status": "accessory"
+      },
+      "540000033": {
+        "status": "accessory"
+      },
+      "530000043": {
+        "status": "no"
+      },
+      "530000034": {
+        "status": "no"
+      },
+      "530000035": {
+        "status": "no"
+      },
+      "530000036": {
+        "status": "no"
+      },
+      "351202": {
+        "status": "no"
+      },
+      "351203": {
+        "status": "no"
+      },
+      "351205": {
+        "status": "no"
+      },
+      "530000015": {
+        "status": "no"
+      },
+      "351200": {
+        "status": "no"
+      },
+      "351201": {
+        "status": "no"
+      },
+      "530000030": {
+        "status": "accessory"
+      },
+      "530000008": {
+        "status": "accessory"
+      },
+      "530000009": {
+        "status": "accessory"
+      },
+      "350611": {
+        "status": "accessory"
+      },
+      "350703": {
+        "status": "accessory"
+      },
+      "350704": {
+        "status": "accessory"
+      },
+      "350705": {
+        "status": "accessory"
+      },
+      "350706": {
+        "status": "accessory"
+      },
+      "440000038": {
+        "status": "yes"
+      },
+      "440000040": {
+        "status": "yes"
+      },
+      "440000039": {
+        "status": "yes"
+      },
+      "440000041": {
+        "status": "yes"
+      },
+      "440000003-71053": {
+        "status": "yes"
+      },
+      "710601": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710001": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710611": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710613-711004": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710933-71033": {
+        "status": "no"
+      },
+      "711200": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "440000037": {
+        "status": "accessory"
+      },
+      "710603": {
+        "status": "accessory"
+      },
+      "710605": {
+        "status": "accessory"
+      },
+      "750570": {
+        "status": "accessory"
+      },
+      "150000053": {
+        "status": "accessory"
+      }
+    },
+    "giant-revolt-advanced": {
+      "530000050": {
+        "status": "yes",
+        "note": "need the seat tube strap mounting kit"
+      },
+      "530000049": {
+        "status": "no"
+      },
+      "540000042": {
+        "status": "accessory"
+      },
+      "540000033": {
+        "status": "accessory"
+      },
+      "530000043": {
+        "status": "yes"
+      },
+      "530000034": {
+        "status": "no"
+      },
+      "530000035": {
+        "status": "no"
+      },
+      "530000036": {
+        "status": "no"
+      },
+      "351202": {
+        "status": "no"
+      },
+      "351203": {
+        "status": "no"
+      },
+      "351205": {
+        "status": "no"
+      },
+      "530000015": {
+        "status": "no"
+      },
+      "351200": {
+        "status": "no"
+      },
+      "351201": {
+        "status": "no"
+      },
+      "530000030": {
+        "status": "accessory"
+      },
+      "530000008": {
+        "status": "yes"
+      },
+      "530000009": {
+        "status": "yes"
+      },
+      "350611": {
+        "status": "yes"
+      },
+      "350703": {
+        "status": "yes"
+      },
+      "350704": {
+        "status": "yes"
+      },
+      "350705": {
+        "status": "yes"
+      },
+      "350706": {
+        "status": "yes"
+      },
+      "440000038": {
+        "status": "yes"
+      },
+      "440000040": {
+        "status": "yes"
+      },
+      "440000039": {
+        "status": "yes"
+      },
+      "440000041": {
+        "status": "yes"
+      },
+      "440000003-71053": {
+        "status": "yes"
+      },
+      "710601": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710001": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710611": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710613-711004": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710933-71033": {
+        "status": "no"
+      },
+      "711200": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "440000037": {
+        "status": "accessory"
+      },
+      "710603": {
+        "status": "accessory"
+      },
+      "710605": {
+        "status": "accessory"
+      },
+      "750570": {
+        "status": "accessory"
+      },
+      "150000053": {
+        "status": "accessory"
+      }
+    },
+    "giant-revolt-advanced-pro": {
+      "530000050": {
+        "status": "yes",
+        "note": "need the seat tube strap mounting kit"
+      },
+      "530000049": {
+        "status": "no"
+      },
+      "540000042": {
+        "status": "accessory"
+      },
+      "540000033": {
+        "status": "accessory"
+      },
+      "530000043": {
+        "status": "yes"
+      },
+      "530000034": {
+        "status": "no"
+      },
+      "530000035": {
+        "status": "no"
+      },
+      "530000036": {
+        "status": "no"
+      },
+      "351202": {
+        "status": "no"
+      },
+      "351203": {
+        "status": "no"
+      },
+      "351205": {
+        "status": "no"
+      },
+      "530000015": {
+        "status": "no"
+      },
+      "351200": {
+        "status": "no"
+      },
+      "351201": {
+        "status": "no"
+      },
+      "530000030": {
+        "status": "accessory"
+      },
+      "530000008": {
+        "status": "accessory"
+      },
+      "530000009": {
+        "status": "accessory"
+      },
+      "350611": {
+        "status": "accessory"
+      },
+      "350703": {
+        "status": "accessory"
+      },
+      "350704": {
+        "status": "accessory"
+      },
+      "350705": {
+        "status": "accessory"
+      },
+      "350706": {
+        "status": "accessory"
+      },
+      "440000038": {
+        "status": "yes"
+      },
+      "440000040": {
+        "status": "yes"
+      },
+      "440000039": {
+        "status": "yes"
+      },
+      "440000041": {
+        "status": "yes"
+      },
+      "440000003-71053": {
+        "status": "yes"
+      },
+      "710601": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710001": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710611": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710613-711004": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710933-71033": {
+        "status": "no"
+      },
+      "711200": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "440000037": {
+        "status": "accessory"
+      },
+      "710603": {
+        "status": "accessory"
+      },
+      "710605": {
+        "status": "accessory"
+      },
+      "750570": {
+        "status": "accessory"
+      },
+      "150000053": {
+        "status": "accessory"
+      }
+    },
+    "giant-revolt-x": {
+      "530000050": {
+        "status": "no"
+      },
+      "530000049": {
+        "status": "no"
+      },
+      "540000042": {
+        "status": "accessory"
+      },
+      "540000033": {
+        "status": "accessory"
+      },
+      "530000043": {
+        "status": "no"
+      },
+      "530000034": {
+        "status": "no"
+      },
+      "530000035": {
+        "status": "no"
+      },
+      "530000036": {
+        "status": "no"
+      },
+      "351202": {
+        "status": "no"
+      },
+      "351203": {
+        "status": "no"
+      },
+      "351205": {
+        "status": "no"
+      },
+      "530000015": {
+        "status": "no"
+      },
+      "351200": {
+        "status": "no"
+      },
+      "351201": {
+        "status": "no"
+      },
+      "530000030": {
+        "status": "yes"
+      },
+      "530000008": {
+        "status": "yes"
+      },
+      "530000009": {
+        "status": "yes"
+      },
+      "350611": {
+        "status": "yes"
+      },
+      "350703": {
+        "status": "yes"
+      },
+      "350704": {
+        "status": "yes"
+      },
+      "350705": {
+        "status": "yes"
+      },
+      "350706": {
+        "status": "yes"
+      },
+      "440000038": {
+        "status": "yes"
+      },
+      "440000040": {
+        "status": "yes"
+      },
+      "440000039": {
+        "status": "yes"
+      },
+      "440000041": {
+        "status": "yes"
+      },
+      "440000003-71053": {
+        "status": "no"
+      },
+      "710601": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710001": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710611": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710613-711004": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710933-71033": {
+        "status": "no"
+      },
+      "711200": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "440000037": {
+        "status": "accessory"
+      },
+      "710603": {
+        "status": "accessory"
+      },
+      "710605": {
+        "status": "accessory"
+      },
+      "750570": {
+        "status": "accessory"
+      },
+      "150000053": {
+        "status": "accessory"
+      }
+    },
+    "giant-revolt-x-advanced-pro": {
+      "530000050": {
+        "status": "no"
+      },
+      "530000049": {
+        "status": "no"
+      },
+      "540000042": {
+        "status": "accessory"
+      },
+      "540000033": {
+        "status": "accessory"
+      },
+      "530000043": {
+        "status": "no"
+      },
+      "530000034": {
+        "status": "no"
+      },
+      "530000035": {
+        "status": "no"
+      },
+      "530000036": {
+        "status": "no"
+      },
+      "351202": {
+        "status": "no"
+      },
+      "351203": {
+        "status": "no"
+      },
+      "351205": {
+        "status": "no"
+      },
+      "530000015": {
+        "status": "no"
+      },
+      "351200": {
+        "status": "no"
+      },
+      "351201": {
+        "status": "no"
+      },
+      "530000030": {
+        "status": "yes"
+      },
+      "530000008": {
+        "status": "yes"
+      },
+      "530000009": {
+        "status": "yes"
+      },
+      "350611": {
+        "status": "yes"
+      },
+      "350703": {
+        "status": "yes"
+      },
+      "350704": {
+        "status": "yes"
+      },
+      "350705": {
+        "status": "yes"
+      },
+      "350706": {
+        "status": "yes"
+      },
+      "440000038": {
+        "status": "yes"
+      },
+      "440000040": {
+        "status": "yes"
+      },
+      "440000039": {
+        "status": "yes"
+      },
+      "440000041": {
+        "status": "yes"
+      },
+      "440000003-71053": {
+        "status": "no"
+      },
+      "710601": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710001": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710611": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710613-711004": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710933-71033": {
+        "status": "no"
+      },
+      "711200": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "440000037": {
+        "status": "accessory"
+      },
+      "710603": {
+        "status": "accessory"
+      },
+      "710605": {
+        "status": "accessory"
+      },
+      "750570": {
+        "status": "accessory"
+      },
+      "150000053": {
+        "status": "accessory"
+      }
+    },
+    "giant-roam": {
+      "530000050": {
+        "status": "no"
+      },
+      "530000049": {
+        "status": "no"
+      },
+      "540000042": {
+        "status": "accessory"
+      },
+      "540000033": {
+        "status": "accessory"
+      },
+      "530000043": {
+        "status": "no"
+      },
+      "530000034": {
+        "status": "no"
+      },
+      "530000035": {
+        "status": "no"
+      },
+      "530000036": {
+        "status": "no"
+      },
+      "351202": {
+        "status": "no"
+      },
+      "351203": {
+        "status": "no"
+      },
+      "351205": {
+        "status": "no"
+      },
+      "530000015": {
+        "status": "no"
+      },
+      "351200": {
+        "status": "no"
+      },
+      "351201": {
+        "status": "no"
+      },
+      "530000030": {
+        "status": "yes"
+      },
+      "530000008": {
+        "status": "yes"
+      },
+      "530000009": {
+        "status": "yes"
+      },
+      "350611": {
+        "status": "yes"
+      },
+      "350703": {
+        "status": "yes"
+      },
+      "350704": {
+        "status": "yes"
+      },
+      "350705": {
+        "status": "yes"
+      },
+      "350706": {
+        "status": "yes"
+      },
+      "440000038": {
+        "status": "yes"
+      },
+      "440000040": {
+        "status": "yes"
+      },
+      "440000039": {
+        "status": "yes"
+      },
+      "440000041": {
+        "status": "yes"
+      },
+      "440000003-71053": {
+        "status": "no"
+      },
+      "710601": {
+        "status": "yes"
+      },
+      "710001": {
+        "status": "yes"
+      },
+      "710611": {
+        "status": "yes"
+      },
+      "710613-711004": {
+        "status": "yes"
+      },
+      "710933-71033": {
+        "status": "no"
+      },
+      "711200": {
+        "status": "yes"
+      },
+      "440000037": {
+        "status": "accessory"
+      },
+      "710603": {
+        "status": "accessory"
+      },
+      "710605": {
+        "status": "accessory"
+      },
+      "750570": {
+        "status": "accessory"
+      },
+      "150000053": {
+        "status": "accessory"
+      }
+    },
+    "giant-talon-27-5": {
+      "530000050": {
+        "status": "no"
+      },
+      "530000049": {
+        "status": "no"
+      },
+      "540000042": {
+        "status": "accessory"
+      },
+      "540000033": {
+        "status": "accessory"
+      },
+      "530000043": {
+        "status": "no"
+      },
+      "530000034": {
+        "status": "no"
+      },
+      "530000035": {
+        "status": "no"
+      },
+      "530000036": {
+        "status": "no"
+      },
+      "351202": {
+        "status": "no"
+      },
+      "351203": {
+        "status": "no"
+      },
+      "351205": {
+        "status": "no"
+      },
+      "530000015": {
+        "status": "no"
+      },
+      "351200": {
+        "status": "no"
+      },
+      "351201": {
+        "status": "no"
+      },
+      "530000030": {
+        "status": "yes"
+      },
+      "530000008": {
+        "status": "yes"
+      },
+      "530000009": {
+        "status": "yes"
+      },
+      "350611": {
+        "status": "yes"
+      },
+      "350703": {
+        "status": "yes"
+      },
+      "350704": {
+        "status": "yes"
+      },
+      "350705": {
+        "status": "yes"
+      },
+      "350706": {
+        "status": "yes"
+      },
+      "440000038": {
+        "status": "yes"
+      },
+      "440000040": {
+        "status": "yes"
+      },
+      "440000039": {
+        "status": "yes"
+      },
+      "440000041": {
+        "status": "yes"
+      },
+      "440000003-71053": {
+        "status": "no"
+      },
+      "710601": {
+        "status": "yes"
+      },
+      "710001": {
+        "status": "yes"
+      },
+      "710611": {
+        "status": "yes"
+      },
+      "710613-711004": {
+        "status": "yes"
+      },
+      "710933-71033": {
+        "status": "no"
+      },
+      "711200": {
+        "status": "yes"
+      },
+      "440000037": {
+        "status": "accessory"
+      },
+      "710603": {
+        "status": "accessory"
+      },
+      "710605": {
+        "status": "accessory"
+      },
+      "750570": {
+        "status": "accessory"
+      },
+      "150000053": {
+        "status": "accessory"
+      }
+    },
+    "giant-talon-29er": {
+      "530000050": {
+        "status": "no"
+      },
+      "530000049": {
+        "status": "no"
+      },
+      "540000042": {
+        "status": "accessory"
+      },
+      "540000033": {
+        "status": "accessory"
+      },
+      "530000043": {
+        "status": "no"
+      },
+      "530000034": {
+        "status": "no"
+      },
+      "530000035": {
+        "status": "no"
+      },
+      "530000036": {
+        "status": "no"
+      },
+      "351202": {
+        "status": "no"
+      },
+      "351203": {
+        "status": "no"
+      },
+      "351205": {
+        "status": "no"
+      },
+      "530000015": {
+        "status": "no"
+      },
+      "351200": {
+        "status": "no"
+      },
+      "351201": {
+        "status": "no"
+      },
+      "530000030": {
+        "status": "yes"
+      },
+      "530000008": {
+        "status": "yes"
+      },
+      "530000009": {
+        "status": "yes"
+      },
+      "350611": {
+        "status": "yes"
+      },
+      "350703": {
+        "status": "yes"
+      },
+      "350704": {
+        "status": "yes"
+      },
+      "350705": {
+        "status": "yes"
+      },
+      "350706": {
+        "status": "yes"
+      },
+      "440000038": {
+        "status": "yes"
+      },
+      "440000040": {
+        "status": "yes"
+      },
+      "440000039": {
+        "status": "yes"
+      },
+      "440000041": {
+        "status": "yes"
+      },
+      "440000003-71053": {
+        "status": "no"
+      },
+      "710601": {
+        "status": "no"
+      },
+      "710001": {
+        "status": "no"
+      },
+      "710611": {
+        "status": "no"
+      },
+      "710613-711004": {
+        "status": "no"
+      },
+      "710933-71033": {
+        "status": "no"
+      },
+      "711200": {
+        "status": "no"
+      },
+      "440000037": {
+        "status": "accessory"
+      },
+      "710603": {
+        "status": "accessory"
+      },
+      "710605": {
+        "status": "accessory"
+      },
+      "750570": {
+        "status": "accessory"
+      },
+      "150000053": {
+        "status": "accessory"
+      }
+    },
+    "liv-alight": {
+      "530000050": {
+        "status": "yes",
+        "note": "need the seat tube strap mounting kit"
+      },
+      "530000049": {
+        "status": "no"
+      },
+      "540000042": {
+        "status": "accessory"
+      },
+      "540000033": {
+        "status": "accessory"
+      },
+      "530000043": {
+        "status": "yes"
+      },
+      "530000034": {
+        "status": "no"
+      },
+      "530000035": {
+        "status": "no"
+      },
+      "530000036": {
+        "status": "no"
+      },
+      "351202": {
+        "status": "no"
+      },
+      "351203": {
+        "status": "no"
+      },
+      "351205": {
+        "status": "no"
+      },
+      "530000015": {
+        "status": "no"
+      },
+      "351200": {
+        "status": "no"
+      },
+      "351201": {
+        "status": "no"
+      },
+      "530000030": {
+        "status": "accessory"
+      },
+      "530000008": {
+        "status": "accessory"
+      },
+      "530000009": {
+        "status": "accessory"
+      },
+      "350611": {
+        "status": "accessory"
+      },
+      "350703": {
+        "status": "accessory"
+      },
+      "350704": {
+        "status": "accessory"
+      },
+      "350705": {
+        "status": "accessory"
+      },
+      "350706": {
+        "status": "accessory"
+      },
+      "440000038": {
+        "status": "yes"
+      },
+      "440000040": {
+        "status": "yes"
+      },
+      "440000039": {
+        "status": "yes"
+      },
+      "440000041": {
+        "status": "yes"
+      },
+      "440000003-71053": {
+        "status": "no"
+      },
+      "710601": {
+        "status": "yes"
+      },
+      "710001": {
+        "status": "yes"
+      },
+      "710611": {
+        "status": "yes"
+      },
+      "710613-711004": {
+        "status": "yes"
+      },
+      "710933-71033": {
+        "status": "no"
+      },
+      "711200": {
+        "status": "yes"
+      },
+      "440000037": {
+        "status": "accessory"
+      },
+      "710603": {
+        "status": "accessory"
+      },
+      "710605": {
+        "status": "accessory"
+      },
+      "750570": {
+        "status": "accessory"
+      },
+      "150000053": {
+        "status": "accessory"
+      }
+    },
+    "liv-alight-disc": {
+      "530000050": {
+        "status": "yes",
+        "note": "need the seat tube strap mounting kit"
+      },
+      "530000049": {
+        "status": "no"
+      },
+      "540000042": {
+        "status": "accessory"
+      },
+      "540000033": {
+        "status": "accessory"
+      },
+      "530000043": {
+        "status": "yes"
+      },
+      "530000034": {
+        "status": "no"
+      },
+      "530000035": {
+        "status": "no"
+      },
+      "530000036": {
+        "status": "no"
+      },
+      "351202": {
+        "status": "no"
+      },
+      "351203": {
+        "status": "no"
+      },
+      "351205": {
+        "status": "no"
+      },
+      "530000015": {
+        "status": "no"
+      },
+      "351200": {
+        "status": "no"
+      },
+      "351201": {
+        "status": "no"
+      },
+      "530000030": {
+        "status": "accessory"
+      },
+      "530000008": {
+        "status": "accessory"
+      },
+      "530000009": {
+        "status": "accessory"
+      },
+      "350611": {
+        "status": "accessory"
+      },
+      "350703": {
+        "status": "accessory"
+      },
+      "350704": {
+        "status": "accessory"
+      },
+      "350705": {
+        "status": "accessory"
+      },
+      "350706": {
+        "status": "accessory"
+      },
+      "440000038": {
+        "status": "yes"
+      },
+      "440000040": {
+        "status": "yes"
+      },
+      "440000039": {
+        "status": "yes"
+      },
+      "440000041": {
+        "status": "yes"
+      },
+      "440000003-71053": {
+        "status": "no"
+      },
+      "710601": {
+        "status": "yes"
+      },
+      "710001": {
+        "status": "yes"
+      },
+      "710611": {
+        "status": "yes"
+      },
+      "710613-711004": {
+        "status": "yes"
+      },
+      "710933-71033": {
+        "status": "no"
+      },
+      "711200": {
+        "status": "yes"
+      },
+      "440000037": {
+        "status": "accessory"
+      },
+      "710603": {
+        "status": "accessory"
+      },
+      "710605": {
+        "status": "accessory"
+      },
+      "750570": {
+        "status": "accessory"
+      },
+      "150000053": {
+        "status": "accessory"
+      }
+    },
+    "liv-avail": {
+      "530000050": {
+        "status": "no"
+      },
+      "530000049": {
+        "status": "no"
+      },
+      "540000042": {
+        "status": "accessory"
+      },
+      "540000033": {
+        "status": "accessory"
+      },
+      "530000043": {
+        "status": "no"
+      },
+      "530000034": {
+        "status": "no"
+      },
+      "530000035": {
+        "status": "no"
+      },
+      "530000036": {
+        "status": "no"
+      },
+      "351202": {
+        "status": "no"
+      },
+      "351203": {
+        "status": "no"
+      },
+      "351205": {
+        "status": "no"
+      },
+      "530000015": {
+        "status": "no"
+      },
+      "351200": {
+        "status": "no"
+      },
+      "351201": {
+        "status": "no"
+      },
+      "530000030": {
+        "status": "accessory"
+      },
+      "530000008": {
+        "status": "accessory"
+      },
+      "530000009": {
+        "status": "accessory"
+      },
+      "350611": {
+        "status": "accessory"
+      },
+      "350703": {
+        "status": "accessory"
+      },
+      "350704": {
+        "status": "accessory"
+      },
+      "350705": {
+        "status": "accessory"
+      },
+      "350706": {
+        "status": "accessory"
+      },
+      "440000038": {
+        "status": "yes"
+      },
+      "440000040": {
+        "status": "yes"
+      },
+      "440000039": {
+        "status": "yes"
+      },
+      "440000041": {
+        "status": "yes"
+      },
+      "440000003-71053": {
+        "status": "no"
+      },
+      "710601": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710001": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710611": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710613-711004": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710933-71033": {
+        "status": "no"
+      },
+      "711200": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "440000037": {
+        "status": "accessory"
+      },
+      "710603": {
+        "status": "accessory"
+      },
+      "710605": {
+        "status": "accessory"
+      },
+      "750570": {
+        "status": "accessory"
+      },
+      "150000053": {
+        "status": "accessory"
+      }
+    },
+    "liv-avail-advanced": {
+      "530000050": {
+        "status": "no"
+      },
+      "530000049": {
+        "status": "no"
+      },
+      "540000042": {
+        "status": "accessory"
+      },
+      "540000033": {
+        "status": "accessory"
+      },
+      "530000043": {
+        "status": "no"
+      },
+      "530000034": {
+        "status": "no"
+      },
+      "530000035": {
+        "status": "no"
+      },
+      "530000036": {
+        "status": "no"
+      },
+      "351202": {
+        "status": "no"
+      },
+      "351203": {
+        "status": "no"
+      },
+      "351205": {
+        "status": "no"
+      },
+      "530000015": {
+        "status": "no"
+      },
+      "351200": {
+        "status": "no"
+      },
+      "351201": {
+        "status": "no"
+      },
+      "530000030": {
+        "status": "accessory"
+      },
+      "530000008": {
+        "status": "accessory"
+      },
+      "530000009": {
+        "status": "accessory"
+      },
+      "350611": {
+        "status": "accessory"
+      },
+      "350703": {
+        "status": "accessory"
+      },
+      "350704": {
+        "status": "accessory"
+      },
+      "350705": {
+        "status": "accessory"
+      },
+      "350706": {
+        "status": "accessory"
+      },
+      "440000038": {
+        "status": "yes"
+      },
+      "440000040": {
+        "status": "yes"
+      },
+      "440000039": {
+        "status": "yes"
+      },
+      "440000041": {
+        "status": "yes"
+      },
+      "440000003-71053": {
+        "status": "no"
+      },
+      "710601": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710001": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710611": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710613-711004": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710933-71033": {
+        "status": "no"
+      },
+      "711200": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "440000037": {
+        "status": "accessory"
+      },
+      "710603": {
+        "status": "accessory"
+      },
+      "710605": {
+        "status": "accessory"
+      },
+      "750570": {
+        "status": "accessory"
+      },
+      "150000053": {
+        "status": "accessory"
+      }
+    },
+    "liv-avail-advanced-pro": {
+      "530000050": {
+        "status": "no"
+      },
+      "530000049": {
+        "status": "no"
+      },
+      "540000042": {
+        "status": "accessory"
+      },
+      "540000033": {
+        "status": "accessory"
+      },
+      "530000043": {
+        "status": "no"
+      },
+      "530000034": {
+        "status": "no"
+      },
+      "530000035": {
+        "status": "no"
+      },
+      "530000036": {
+        "status": "no"
+      },
+      "351202": {
+        "status": "no"
+      },
+      "351203": {
+        "status": "no"
+      },
+      "351205": {
+        "status": "no"
+      },
+      "530000015": {
+        "status": "no"
+      },
+      "351200": {
+        "status": "no"
+      },
+      "351201": {
+        "status": "no"
+      },
+      "530000030": {
+        "status": "accessory"
+      },
+      "530000008": {
+        "status": "accessory"
+      },
+      "530000009": {
+        "status": "accessory"
+      },
+      "350611": {
+        "status": "accessory"
+      },
+      "350703": {
+        "status": "accessory"
+      },
+      "350704": {
+        "status": "accessory"
+      },
+      "350705": {
+        "status": "accessory"
+      },
+      "350706": {
+        "status": "accessory"
+      },
+      "440000038": {
+        "status": "yes"
+      },
+      "440000040": {
+        "status": "yes"
+      },
+      "440000039": {
+        "status": "yes"
+      },
+      "440000041": {
+        "status": "yes"
+      },
+      "440000003-71053": {
+        "status": "no"
+      },
+      "710601": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710001": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710611": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710613-711004": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710933-71033": {
+        "status": "no"
+      },
+      "711200": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "440000037": {
+        "status": "accessory"
+      },
+      "710603": {
+        "status": "accessory"
+      },
+      "710605": {
+        "status": "accessory"
+      },
+      "750570": {
+        "status": "accessory"
+      },
+      "150000053": {
+        "status": "accessory"
+      }
+    },
+    "liv-avail-ar": {
+      "530000050": {
+        "status": "no"
+      },
+      "530000049": {
+        "status": "no"
+      },
+      "540000042": {
+        "status": "accessory"
+      },
+      "540000033": {
+        "status": "accessory"
+      },
+      "530000043": {
+        "status": "no"
+      },
+      "530000034": {
+        "status": "no"
+      },
+      "530000035": {
+        "status": "no"
+      },
+      "530000036": {
+        "status": "no"
+      },
+      "351202": {
+        "status": "no"
+      },
+      "351203": {
+        "status": "no"
+      },
+      "351205": {
+        "status": "no"
+      },
+      "530000015": {
+        "status": "no"
+      },
+      "351200": {
+        "status": "no"
+      },
+      "351201": {
+        "status": "no"
+      },
+      "530000030": {
+        "status": "accessory"
+      },
+      "530000008": {
+        "status": "accessory"
+      },
+      "530000009": {
+        "status": "accessory"
+      },
+      "350611": {
+        "status": "accessory"
+      },
+      "350703": {
+        "status": "accessory"
+      },
+      "350704": {
+        "status": "accessory"
+      },
+      "350705": {
+        "status": "accessory"
+      },
+      "350706": {
+        "status": "accessory"
+      },
+      "440000038": {
+        "status": "yes"
+      },
+      "440000040": {
+        "status": "yes"
+      },
+      "440000039": {
+        "status": "yes"
+      },
+      "440000041": {
+        "status": "yes"
+      },
+      "440000003-71053": {
+        "status": "no"
+      },
+      "710601": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710001": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710611": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710613-711004": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710933-71033": {
+        "status": "no"
+      },
+      "711200": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "440000037": {
+        "status": "accessory"
+      },
+      "710603": {
+        "status": "accessory"
+      },
+      "710605": {
+        "status": "accessory"
+      },
+      "750570": {
+        "status": "accessory"
+      },
+      "150000053": {
+        "status": "accessory"
+      }
+    },
+    "liv-devote": {
+      "530000050": {
+        "status": "yes"
+      },
+      "530000049": {
+        "status": "no"
+      },
+      "540000042": {
+        "status": "accessory"
+      },
+      "540000033": {
+        "status": "accessory"
+      },
+      "530000043": {
+        "status": "no"
+      },
+      "530000034": {
+        "status": "no"
+      },
+      "530000035": {
+        "status": "no"
+      },
+      "530000036": {
+        "status": "no"
+      },
+      "351202": {
+        "status": "no"
+      },
+      "351203": {
+        "status": "no"
+      },
+      "351205": {
+        "status": "no"
+      },
+      "530000015": {
+        "status": "no"
+      },
+      "351200": {
+        "status": "no"
+      },
+      "351201": {
+        "status": "no"
+      },
+      "530000030": {
+        "status": "accessory"
+      },
+      "530000008": {
+        "status": "accessory"
+      },
+      "530000009": {
+        "status": "accessory"
+      },
+      "350611": {
+        "status": "accessory"
+      },
+      "350703": {
+        "status": "accessory"
+      },
+      "350704": {
+        "status": "accessory"
+      },
+      "350705": {
+        "status": "accessory"
+      },
+      "350706": {
+        "status": "accessory"
+      },
+      "440000038": {
+        "status": "yes"
+      },
+      "440000040": {
+        "status": "yes"
+      },
+      "440000039": {
+        "status": "yes"
+      },
+      "440000041": {
+        "status": "yes"
+      },
+      "440000003-71053": {
+        "status": "yes"
+      },
+      "710601": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710001": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710611": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710613-711004": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710933-71033": {
+        "status": "no"
+      },
+      "711200": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "440000037": {
+        "status": "accessory"
+      },
+      "710603": {
+        "status": "accessory"
+      },
+      "710605": {
+        "status": "accessory"
+      },
+      "750570": {
+        "status": "accessory"
+      },
+      "150000053": {
+        "status": "accessory"
+      }
+    },
+    "liv-devote-advanced": {
+      "530000050": {
+        "status": "yes"
+      },
+      "530000049": {
+        "status": "no"
+      },
+      "540000042": {
+        "status": "accessory"
+      },
+      "540000033": {
+        "status": "accessory"
+      },
+      "530000043": {
+        "status": "yes"
+      },
+      "530000034": {
+        "status": "no"
+      },
+      "530000035": {
+        "status": "no"
+      },
+      "530000036": {
+        "status": "no"
+      },
+      "351202": {
+        "status": "no"
+      },
+      "351203": {
+        "status": "no"
+      },
+      "351205": {
+        "status": "no"
+      },
+      "530000015": {
+        "status": "no"
+      },
+      "351200": {
+        "status": "no"
+      },
+      "351201": {
+        "status": "no"
+      },
+      "530000030": {
+        "status": "accessory"
+      },
+      "530000008": {
+        "status": "accessory"
+      },
+      "530000009": {
+        "status": "accessory"
+      },
+      "350611": {
+        "status": "accessory"
+      },
+      "350703": {
+        "status": "accessory"
+      },
+      "350704": {
+        "status": "accessory"
+      },
+      "350705": {
+        "status": "accessory"
+      },
+      "350706": {
+        "status": "accessory"
+      },
+      "440000038": {
+        "status": "yes"
+      },
+      "440000040": {
+        "status": "yes"
+      },
+      "440000039": {
+        "status": "yes"
+      },
+      "440000041": {
+        "status": "yes"
+      },
+      "440000003-71053": {
+        "status": "yes"
+      },
+      "710601": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710001": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710611": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710613-711004": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710933-71033": {
+        "status": "no"
+      },
+      "711200": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "440000037": {
+        "status": "accessory"
+      },
+      "710603": {
+        "status": "accessory"
+      },
+      "710605": {
+        "status": "accessory"
+      },
+      "750570": {
+        "status": "accessory"
+      },
+      "150000053": {
+        "status": "accessory"
+      }
+    },
+    "liv-devote-advanced-pro": {
+      "530000050": {
+        "status": "yes"
+      },
+      "530000049": {
+        "status": "no"
+      },
+      "540000042": {
+        "status": "accessory"
+      },
+      "540000033": {
+        "status": "accessory"
+      },
+      "530000043": {
+        "status": "yes"
+      },
+      "530000034": {
+        "status": "no"
+      },
+      "530000035": {
+        "status": "no"
+      },
+      "530000036": {
+        "status": "no"
+      },
+      "351202": {
+        "status": "no"
+      },
+      "351203": {
+        "status": "no"
+      },
+      "351205": {
+        "status": "no"
+      },
+      "530000015": {
+        "status": "no"
+      },
+      "351200": {
+        "status": "no"
+      },
+      "351201": {
+        "status": "no"
+      },
+      "530000030": {
+        "status": "accessory"
+      },
+      "530000008": {
+        "status": "accessory"
+      },
+      "530000009": {
+        "status": "accessory"
+      },
+      "350611": {
+        "status": "accessory"
+      },
+      "350703": {
+        "status": "accessory"
+      },
+      "350704": {
+        "status": "accessory"
+      },
+      "350705": {
+        "status": "accessory"
+      },
+      "350706": {
+        "status": "accessory"
+      },
+      "440000038": {
+        "status": "yes"
+      },
+      "440000040": {
+        "status": "yes"
+      },
+      "440000039": {
+        "status": "yes"
+      },
+      "440000041": {
+        "status": "yes"
+      },
+      "440000003-71053": {
+        "status": "yes"
+      },
+      "710601": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710001": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710611": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710613-711004": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710933-71033": {
+        "status": "no"
+      },
+      "711200": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "440000037": {
+        "status": "accessory"
+      },
+      "710603": {
+        "status": "accessory"
+      },
+      "710605": {
+        "status": "accessory"
+      },
+      "750570": {
+        "status": "accessory"
+      },
+      "150000053": {
+        "status": "accessory"
+      }
+    },
+    "liv-rove": {
+      "530000050": {
+        "status": "no"
+      },
+      "530000049": {
+        "status": "no"
+      },
+      "540000042": {
+        "status": "accessory"
+      },
+      "540000033": {
+        "status": "accessory"
+      },
+      "530000043": {
+        "status": "no"
+      },
+      "530000034": {
+        "status": "no"
+      },
+      "530000035": {
+        "status": "no"
+      },
+      "530000036": {
+        "status": "no"
+      },
+      "351202": {
+        "status": "no"
+      },
+      "351203": {
+        "status": "no"
+      },
+      "351205": {
+        "status": "no"
+      },
+      "530000015": {
+        "status": "no"
+      },
+      "351200": {
+        "status": "no"
+      },
+      "351201": {
+        "status": "no"
+      },
+      "530000030": {
+        "status": "yes"
+      },
+      "530000008": {
+        "status": "yes"
+      },
+      "530000009": {
+        "status": "yes"
+      },
+      "350611": {
+        "status": "yes"
+      },
+      "350703": {
+        "status": "yes"
+      },
+      "350704": {
+        "status": "yes"
+      },
+      "350705": {
+        "status": "yes"
+      },
+      "350706": {
+        "status": "yes"
+      },
+      "440000038": {
+        "status": "yes"
+      },
+      "440000040": {
+        "status": "yes"
+      },
+      "440000039": {
+        "status": "yes"
+      },
+      "440000041": {
+        "status": "yes"
+      },
+      "440000003-71053": {
+        "status": "no"
+      },
+      "710601": {
+        "status": "yes"
+      },
+      "710001": {
+        "status": "yes"
+      },
+      "710611": {
+        "status": "yes"
+      },
+      "710613-711004": {
+        "status": "yes"
+      },
+      "710933-71033": {
+        "status": "no"
+      },
+      "711200": {
+        "status": "yes"
+      },
+      "440000037": {
+        "status": "accessory"
+      },
+      "710603": {
+        "status": "accessory"
+      },
+      "710605": {
+        "status": "accessory"
+      },
+      "750570": {
+        "status": "accessory"
+      },
+      "150000053": {
+        "status": "accessory"
+      }
+    },
+    "liv-tempt": {
+      "530000050": {
+        "status": "no"
+      },
+      "530000049": {
+        "status": "no"
+      },
+      "540000042": {
+        "status": "accessory"
+      },
+      "540000033": {
+        "status": "accessory"
+      },
+      "530000043": {
+        "status": "no"
+      },
+      "530000034": {
+        "status": "no"
+      },
+      "530000035": {
+        "status": "no"
+      },
+      "530000036": {
+        "status": "no"
+      },
+      "351202": {
+        "status": "no"
+      },
+      "351203": {
+        "status": "no"
+      },
+      "351205": {
+        "status": "no"
+      },
+      "530000015": {
+        "status": "no"
+      },
+      "351200": {
+        "status": "no"
+      },
+      "351201": {
+        "status": "no"
+      },
+      "530000030": {
+        "status": "yes"
+      },
+      "530000008": {
+        "status": "yes"
+      },
+      "530000009": {
+        "status": "yes"
+      },
+      "350611": {
+        "status": "yes"
+      },
+      "350703": {
+        "status": "yes"
+      },
+      "350704": {
+        "status": "yes"
+      },
+      "350705": {
+        "status": "yes"
+      },
+      "350706": {
+        "status": "yes"
+      },
+      "440000038": {
+        "status": "yes"
+      },
+      "440000040": {
+        "status": "yes"
+      },
+      "440000039": {
+        "status": "yes"
+      },
+      "440000041": {
+        "status": "yes"
+      },
+      "440000003-71053": {
+        "status": "no"
+      },
+      "710601": {
+        "status": "yes"
+      },
+      "710001": {
+        "status": "yes"
+      },
+      "710611": {
+        "status": "yes"
+      },
+      "710613-711004": {
+        "status": "yes"
+      },
+      "710933-71033": {
+        "status": "no"
+      },
+      "711200": {
+        "status": "yes"
+      },
+      "440000037": {
+        "status": "accessory"
+      },
+      "710603": {
+        "status": "accessory"
+      },
+      "710605": {
+        "status": "accessory"
+      },
+      "750570": {
+        "status": "accessory"
+      },
+      "150000053": {
+        "status": "accessory"
+      }
+    },
+    "liv-tempt-29er": {
+      "530000050": {
+        "status": "no"
+      },
+      "530000049": {
+        "status": "no"
+      },
+      "540000042": {
+        "status": "accessory"
+      },
+      "540000033": {
+        "status": "accessory"
+      },
+      "530000043": {
+        "status": "no"
+      },
+      "530000034": {
+        "status": "no"
+      },
+      "530000035": {
+        "status": "no"
+      },
+      "530000036": {
+        "status": "no"
+      },
+      "351202": {
+        "status": "no"
+      },
+      "351203": {
+        "status": "no"
+      },
+      "351205": {
+        "status": "no"
+      },
+      "530000015": {
+        "status": "no"
+      },
+      "351200": {
+        "status": "no"
+      },
+      "351201": {
+        "status": "no"
+      },
+      "530000030": {
+        "status": "yes"
+      },
+      "530000008": {
+        "status": "yes"
+      },
+      "530000009": {
+        "status": "yes"
+      },
+      "350611": {
+        "status": "yes"
+      },
+      "350703": {
+        "status": "yes"
+      },
+      "350704": {
+        "status": "yes"
+      },
+      "350705": {
+        "status": "yes"
+      },
+      "350706": {
+        "status": "yes"
+      },
+      "440000038": {
+        "status": "yes"
+      },
+      "440000040": {
+        "status": "yes"
+      },
+      "440000039": {
+        "status": "yes"
+      },
+      "440000041": {
+        "status": "yes"
+      },
+      "440000003-71053": {
+        "status": "no"
+      },
+      "710601": {
+        "status": "no"
+      },
+      "710001": {
+        "status": "no"
+      },
+      "710611": {
+        "status": "no"
+      },
+      "710613-711004": {
+        "status": "no"
+      },
+      "710933-71033": {
+        "status": "no"
+      },
+      "711200": {
+        "status": "no"
+      },
+      "440000037": {
+        "status": "accessory"
+      },
+      "710603": {
+        "status": "accessory"
+      },
+      "710605": {
+        "status": "accessory"
+      },
+      "750570": {
+        "status": "accessory"
+      },
+      "150000053": {
+        "status": "accessory"
+      }
+    },
+    "liv-thrive": {
+      "530000050": {
+        "status": "no"
+      },
+      "530000049": {
+        "status": "no"
+      },
+      "540000042": {
+        "status": "accessory"
+      },
+      "540000033": {
+        "status": "yes"
+      },
+      "530000043": {
+        "status": "no"
+      },
+      "530000034": {
+        "status": "no"
+      },
+      "530000035": {
+        "status": "no"
+      },
+      "530000036": {
+        "status": "no"
+      },
+      "351202": {
+        "status": "no"
+      },
+      "351203": {
+        "status": "no"
+      },
+      "351205": {
+        "status": "no"
+      },
+      "530000015": {
+        "status": "no"
+      },
+      "351200": {
+        "status": "no"
+      },
+      "351201": {
+        "status": "no"
+      },
+      "530000030": {
+        "status": "accessory"
+      },
+      "530000008": {
+        "status": "accessory"
+      },
+      "530000009": {
+        "status": "accessory"
+      },
+      "350611": {
+        "status": "accessory"
+      },
+      "350703": {
+        "status": "accessory"
+      },
+      "350704": {
+        "status": "accessory"
+      },
+      "350705": {
+        "status": "accessory"
+      },
+      "350706": {
+        "status": "accessory"
+      },
+      "440000038": {
+        "status": "yes"
+      },
+      "440000040": {
+        "status": "yes"
+      },
+      "440000039": {
+        "status": "yes"
+      },
+      "440000041": {
+        "status": "yes"
+      },
+      "440000003-71053": {
+        "status": "no"
+      },
+      "710601": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710001": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710611": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710613-711004": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710933-71033": {
+        "status": "no"
+      },
+      "711200": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "440000037": {
+        "status": "accessory"
+      },
+      "710603": {
+        "status": "accessory"
+      },
+      "710605": {
+        "status": "accessory"
+      },
+      "750570": {
+        "status": "accessory"
+      },
+      "150000053": {
+        "status": "accessory"
+      }
+    },
+    "liv-thrive-advanced": {
+      "530000050": {
+        "status": "no"
+      },
+      "530000049": {
+        "status": "no"
+      },
+      "540000042": {
+        "status": "accessory"
+      },
+      "540000033": {
+        "status": "yes"
+      },
+      "530000043": {
+        "status": "no"
+      },
+      "530000034": {
+        "status": "no"
+      },
+      "530000035": {
+        "status": "no"
+      },
+      "530000036": {
+        "status": "no"
+      },
+      "351202": {
+        "status": "no"
+      },
+      "351203": {
+        "status": "no"
+      },
+      "351205": {
+        "status": "no"
+      },
+      "530000015": {
+        "status": "no"
+      },
+      "351200": {
+        "status": "no"
+      },
+      "351201": {
+        "status": "no"
+      },
+      "530000030": {
+        "status": "accessory"
+      },
+      "530000008": {
+        "status": "accessory"
+      },
+      "530000009": {
+        "status": "accessory"
+      },
+      "350611": {
+        "status": "accessory"
+      },
+      "350703": {
+        "status": "accessory"
+      },
+      "350704": {
+        "status": "accessory"
+      },
+      "350705": {
+        "status": "accessory"
+      },
+      "350706": {
+        "status": "accessory"
+      },
+      "440000038": {
+        "status": "yes"
+      },
+      "440000040": {
+        "status": "yes"
+      },
+      "440000039": {
+        "status": "yes"
+      },
+      "440000041": {
+        "status": "yes"
+      },
+      "440000003-71053": {
+        "status": "no"
+      },
+      "710601": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710001": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710611": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710613-711004": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "710933-71033": {
+        "status": "no"
+      },
+      "711200": {
+        "status": "yes",
+        "note": "need adapter"
+      },
+      "440000037": {
+        "status": "accessory"
+      },
+      "710603": {
+        "status": "accessory"
+      },
+      "710605": {
+        "status": "accessory"
+      },
+      "750570": {
+        "status": "accessory"
+      },
+      "150000053": {
+        "status": "accessory"
+      }
+    }
+  }
+}
