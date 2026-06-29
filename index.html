@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fender / Rack / Kickstand 相容性查詢</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header class="app-header">
+  <h1>Fender / Rack / Kickstand 相容性查詢</h1>
+  <div class="legend" id="legend"></div>
+</header>
+
+<nav class="mode-tabs" id="modeTabs">
+  <button class="mode-tab active" data-mode="by-model">依車型查</button>
+  <button class="mode-tab" data-mode="by-product">依產品查</button>
+</nav>
+
+<main>
+  <section id="byModelView" class="view">
+    <div class="search-field">
+      <label for="modelSearch">選擇車型</label>
+      <input type="text" id="modelSearch" placeholder="輸入車型名稱搜尋..." autocomplete="off">
+      <ul id="modelOptions" class="option-list" hidden></ul>
+    </div>
+    <div class="show-all-toggle">
+      <label><input type="checkbox" id="byModelShowAll"> 顯示全部(含不適用)</label>
+    </div>
+    <div class="results-grid" id="byModelResults" hidden>
+      <div class="result-column">
+        <h2>適用 Fender</h2>
+        <div class="card-list" id="fenderResults"></div>
+      </div>
+      <div class="result-column">
+        <h2>適用 Rack</h2>
+        <div class="card-list" id="rackResults"></div>
+      </div>
+      <div class="result-column">
+        <h2>可能適用的 Kickstand</h2>
+        <div class="card-list" id="kickstandResults"></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="byProductView" class="view" hidden>
+    <nav class="category-tabs" id="categoryTabs">
+      <button class="category-tab active" data-category="fenders">Fender</button>
+      <button class="category-tab" data-category="racks">Rack</button>
+      <button class="category-tab" data-category="kickstands">Kickstand</button>
+    </nav>
+    <div class="product-layout">
+      <div class="product-list-pane">
+        <input type="text" id="productSearch" placeholder="輸入產品名稱或 SKU 搜尋..." autocomplete="off">
+        <ul class="option-list" id="productOptions"></ul>
+      </div>
+      <div class="product-detail-pane" id="productDetail">
+        <p class="empty-hint">請從左側選擇一個產品</p>
+      </div>
+    </div>
+  </section>
+</main>
+
+<script type="module" src="js/app.js"></script>
+</body>
+</html>
