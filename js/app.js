@@ -169,11 +169,119 @@ function setupByModelView() {
   showAllCheckbox.addEventListener('change', refresh);
 }
 
+function textToList(text) {
+  const lines = (text || '').split('\n').map((l) => l.trim()).filter(Boolean);
+  if (lines.length === 0) return '<p class="empty-hint">無資料</p>';
+  return '<ul class="plain-list">' + lines.map((l) => `<li>${l}</li>`).join('') + '</ul>';
+}
+
+function renderProductDetail(category, product) {
+  const pane = document.getElementById('productDetail');
+  pane.innerHTML = '';
+
+  if (product.image) {
+    const img = document.createElement('img');
+    img.className = 'detail-image';
+    img.src = product.image;
+    img.alt = product.name;
+    pane.appendChild(img);
+  }
+
+  const header = document.createElement('div');
+  header.innerHTML = `<h2>${product.name}</h2><p>SKU: ${product.sku}</p>`;
+  pane.appendChild(header);
+
+  if (category === 'kickstands') {
+    const bikesBlock = document.createElement('div');
+    bikesBlock.innerHTML = '<h3>適用一般車型</h3>' + textToList(product.compatibleBikesText);
+    const ebikesBlock = document.createElement('div');
+    ebikesBlock.innerHTML = '<h3>適用電動車型</h3>' + textToList(product.compatibleEbikesText);
+    pane.appendChild(bikesBlock);
+    pane.appendChild(ebikesBlock);
+    return;
+  }
+
+  const toggleLabel = document.createElement('label');
+  toggleLabel.innerHTML = '<input type="checkbox" id="byProductShowAll"> 顯示全部(含不適用)';
+  pane.appendChild(toggleLabel);
+
+  const grouped = document.createElement('div');
+  pane.appendChild(grouped);
+
+  function refresh() {
+    const showAll = document.getElementById('byProductShowAll').checked;
+    grouped.innerHTML = '';
+    ['GIANT', 'Liv'].forEach((brand) => {
+      const rows = DATA.models
+        .filter((m) => m.brand === brand)
+        .map((m) => ({ model: m, entry: DATA.compat[m.id][product.id] }))
+        .filter(({ entry }) => showAll || entry.status !== 'no');
+      if (rows.length === 0) return;
+      const section = document.createElement('div');
+      section.innerHTML = `<h3>${brand}</h3>`;
+      const ul = document.createElement('ul');
+      ul.className = 'model-status-list';
+      rows.forEach(({ model, entry }) => {
+        const li = document.createElement('li');
+        li.appendChild(document.createTextNode(`${model.name} `));
+        li.appendChild(statusBadge(entry));
+        if (entry.note) {
+          const note = document.createElement('span');
+          note.className = 'card-note';
+          note.textContent = ` (${entry.note})`;
+          li.appendChild(note);
+        }
+        ul.appendChild(li);
+      });
+      section.appendChild(ul);
+      grouped.appendChild(section);
+    });
+  }
+
+  toggleLabel.querySelector('input').addEventListener('change', refresh);
+  refresh();
+}
+
+function setupByProductView() {
+  const categoryTabs = document.querySelectorAll('.category-tab');
+  const searchInput = document.getElementById('productSearch');
+  const optionsList = document.getElementById('productOptions');
+  let currentCategory = 'fenders';
+
+  function renderOptions(filterText) {
+    const items = DATA[currentCategory].filter((p) =>
+      `${p.name} ${p.sku}`.toLowerCase().includes(filterText.toLowerCase())
+    );
+    optionsList.innerHTML = '';
+    items.forEach((item) => {
+      const li = document.createElement('li');
+      li.textContent = item.name;
+      li.addEventListener('click', () => renderProductDetail(currentCategory, item));
+      optionsList.appendChild(li);
+    });
+  }
+
+  categoryTabs.forEach((tab) => {
+    tab.addEventListener('click', () => {
+      categoryTabs.forEach((t) => t.classList.remove('active'));
+      tab.classList.add('active');
+      currentCategory = tab.dataset.category;
+      searchInput.value = '';
+      document.getElementById('productDetail').innerHTML = '<p class="empty-hint">請從左側選擇一個產品</p>';
+      renderOptions('');
+    });
+  });
+
+  searchInput.addEventListener('input', () => renderOptions(searchInput.value));
+  renderOptions('');
+}
+
 async function main() {
   DATA = await loadData();
   renderLegend(DATA.legend);
   setupModeTabs();
   setupByModelView();
+  setupByProductView();
 }
 
 main().catch((err) => {
