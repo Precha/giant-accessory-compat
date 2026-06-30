@@ -39,9 +39,9 @@ body {
 
 .legend { display: flex; gap: 1rem; flex-wrap: wrap; font-size: 0.85rem; }
 .legend-item { font-weight: 600; }
-.legend-item.status-yes { color: var(--color-yes); }
-.legend-item.status-no { color: var(--color-no); }
-.legend-item.status-accessory { color: var(--color-accessory); }
+.legend-item.status-yes { color: var(--color-yes); background: none; }
+.legend-item.status-no { color: var(--color-no); background: none; }
+.legend-item.status-accessory { color: var(--color-accessory); background: none; }
 
 .mode-tabs, .category-tabs { display: flex; gap: 0.5rem; padding: 0.75rem 1.5rem 0; }
 
