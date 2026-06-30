@@ -104,6 +104,28 @@ function statusBadge(entry) {
   return span;
 }
 
+function openLightbox(src, title, sku) {
+  document.getElementById('lightboxImage').src = src;
+  document.getElementById('lightboxImage').alt = title;
+  document.getElementById('lightboxTitle').textContent = title;
+  document.getElementById('lightboxSku').textContent = `SKU: ${sku}`;
+  document.getElementById('lightboxOverlay').hidden = false;
+}
+
+function closeLightbox() {
+  document.getElementById('lightboxOverlay').hidden = true;
+}
+
+function setupLightbox() {
+  document.getElementById('lightboxClose').addEventListener('click', closeLightbox);
+  document.getElementById('lightboxOverlay').addEventListener('click', (e) => {
+    if (e.target.id === 'lightboxOverlay') closeLightbox(); // backdrop only, not the content box
+  });
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') closeLightbox();
+  });
+}
+
 function productCard(product, entry) {
   const card = document.createElement('div');
   card.className = 'card';
@@ -112,6 +134,7 @@ function productCard(product, entry) {
   if (product.image) {
     img.src = imagePath(product.image);
     img.alt = product.name;
+    img.addEventListener('click', () => openLightbox(imagePath(product.image), product.name, product.sku));
   } else {
     img.hidden = true;
   }
@@ -150,6 +173,7 @@ function kickstandCard(kickstand, hits) {
   if (kickstand.image) {
     img.src = imagePath(kickstand.image);
     img.alt = kickstand.name;
+    img.addEventListener('click', () => openLightbox(imagePath(kickstand.image), kickstand.name, kickstand.sku));
   } else {
     img.hidden = true;
   }
@@ -225,6 +249,7 @@ function renderProductDetail(category, product) {
     img.className = 'detail-image';
     img.src = imagePath(product.image);
     img.alt = product.name;
+    img.addEventListener('click', () => openLightbox(imagePath(product.image), product.name, product.sku));
     pane.appendChild(img);
   }
 
@@ -332,6 +357,7 @@ async function main() {
   renderLegend();
   setupModeTabs();
   setupLangToggle();
+  setupLightbox();
   setupByModelView();
   setupByProductView();
 }
