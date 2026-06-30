@@ -86,6 +86,7 @@ main { padding: 1.5rem; }
 .show-all-toggle { margin-bottom: 1rem; font-size: 0.9rem; }
 
 .results-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; }
+.results-grid[hidden] { display: none; }
 @media (max-width: 900px) { .results-grid { grid-template-columns: 1fr; } }
 
 .result-column h2 { font-size: 1rem; margin-bottom: 0.5rem; }
