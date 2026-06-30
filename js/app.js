@@ -1,10 +1,13 @@
 import { findKickstandMatches } from './matching.mjs';
+import { t, getLang, setLang } from './i18n.mjs';
 
 const STATUS_SYMBOL = { yes: '○', no: 'X', accessory: '–' };
 const STATUS_CLASS = { yes: 'status-yes', no: 'status-no', accessory: 'status-accessory' };
 
 let DATA = null;
 let STATUS_LABEL = null;
+let refreshByModel = () => {};   // replaced by setupByModelView; called on language switch
+let refreshByProduct = () => {}; // replaced by setupByProductView; called on language switch
 
 async function loadData() {
   const res = await fetch('data/data.json');
@@ -18,11 +21,11 @@ function imagePath(relPath) {
   return `data/${relPath}`;
 }
 
-function renderLegend(legend) {
+function renderLegend() {
   STATUS_LABEL = {
-    yes: `${STATUS_SYMBOL.yes} ${legend.yes}`,
-    no: `${STATUS_SYMBOL.no} ${legend.no}`,
-    accessory: `${STATUS_SYMBOL.accessory} ${legend.accessory}`,
+    yes: `${STATUS_SYMBOL.yes} ${t('statusYes')}`,
+    no: `${STATUS_SYMBOL.no} ${t('statusNo')}`,
+    accessory: `${STATUS_SYMBOL.accessory} ${t('statusAccessory')}`,
   };
   const el = document.getElementById('legend');
   el.innerHTML = `
@@ -32,11 +35,34 @@ function renderLegend(legend) {
   `;
 }
 
+function applyI18n() {
+  document.querySelectorAll('[data-i18n]').forEach((el) => {
+    el.textContent = t(el.dataset.i18n);
+  });
+  document.querySelectorAll('[data-i18n-placeholder]').forEach((el) => {
+    el.placeholder = t(el.dataset.i18nPlaceholder);
+  });
+  document.documentElement.lang = getLang() === 'zh' ? 'zh-Hant' : 'en';
+}
+
+function setupLangToggle() {
+  const btn = document.getElementById('langToggle');
+  btn.addEventListener('click', () => {
+    const next = getLang() === 'en' ? 'zh' : 'en';
+    setLang(next);
+    btn.textContent = next === 'en' ? '中文' : 'EN';
+    applyI18n();
+    renderLegend();
+    refreshByModel();
+    refreshByProduct();
+  });
+}
+
 function setupModeTabs() {
   const tabs = document.querySelectorAll('.mode-tab');
   tabs.forEach((tab) => {
     tab.addEventListener('click', () => {
-      tabs.forEach((t) => t.classList.remove('active'));
+      tabs.forEach((each) => each.classList.remove('active'));
       tab.classList.add('active');
       const mode = tab.dataset.mode;
       document.getElementById('byModelView').hidden = mode !== 'by-model';
@@ -66,7 +92,7 @@ function setupSearchableSelect(inputEl, listEl, items, labelFn, onSelect) {
   inputEl.addEventListener('focus', () => renderOptions(inputEl.value));
   inputEl.addEventListener('input', () => renderOptions(inputEl.value));
   inputEl.addEventListener('blur', () => {
-    setTimeout(() => { listEl.hidden = true; }, 100);
+    setTimeout(() => { listEl.hidden = true; }, 100); // focus-loss cleanup after mousedown click-race window
   });
 }
 
@@ -95,7 +121,7 @@ function productCard(product, entry) {
   if (entry.note) {
     const note = document.createElement('div');
     note.className = 'card-note';
-    note.textContent = `備註:${entry.note}`;
+    note.textContent = `${t('note')}: ${entry.note}`;
     body.appendChild(note);
   }
   card.appendChild(img);
@@ -109,7 +135,7 @@ function renderProductResults(containerEl, products, modelId, showAll) {
     .map((p) => ({ product: p, entry: DATA.compat[modelId][p.id] }))
     .filter(({ entry }) => showAll || entry.status !== 'no');
   if (entries.length === 0) {
-    containerEl.innerHTML = '<p class="empty-hint">沒有符合的項目</p>';
+    containerEl.innerHTML = `<p class="empty-hint">${t('noCompatibleItems')}</p>`;
     return;
   }
   entries.forEach(({ product, entry }) => containerEl.appendChild(productCard(product, entry)));
@@ -133,13 +159,13 @@ function kickstandCard(kickstand, hits) {
   list.className = 'hit-list';
   hits.forEach((hit) => {
     const li = document.createElement('li');
-    li.textContent = `${hit.type === 'ebike' ? '[電動車]' : '[一般車]'} ${hit.line}`;
+    li.textContent = `${hit.type === 'ebike' ? t('ebike') : t('bike')} ${hit.line}`;
     list.appendChild(li);
   });
   body.appendChild(list);
   const warn = document.createElement('div');
   warn.className = 'card-note';
-  warn.textContent = '⚠️ 依車型名稱粗略比對,請自行核對年份與型號是否相符';
+  warn.textContent = t('kickstandDisclaimer');
   body.appendChild(warn);
   card.appendChild(img);
   card.appendChild(body);
@@ -150,7 +176,7 @@ function renderKickstandResults(containerEl, modelName) {
   containerEl.innerHTML = '';
   const matches = findKickstandMatches(modelName, DATA.kickstands);
   if (matches.length === 0) {
-    containerEl.innerHTML = '<p class="empty-hint">未找到相符項目,請參考「依產品查」的 Kickstand 完整列表</p>';
+    containerEl.innerHTML = `<p class="empty-hint">${t('kickstandNoMatch')}</p>`;
     return;
   }
   matches.forEach(({ kickstand, hits }) => containerEl.appendChild(kickstandCard(kickstand, hits)));
@@ -171,6 +197,8 @@ function setupByModelView() {
     resultsEl.hidden = false;
   }
 
+  refreshByModel = refresh;
+
   setupSearchableSelect(
     input,
     list,
@@ -183,7 +211,7 @@ function setupByModelView() {
 
 function textToList(text) {
   const lines = (text || '').split('\n').map((l) => l.trim()).filter(Boolean);
-  if (lines.length === 0) return '<p class="empty-hint">無資料</p>';
+  if (lines.length === 0) return `<p class="empty-hint">${t('noData')}</p>`;
   return '<ul class="plain-list">' + lines.map((l) => `<li>${l}</li>`).join('') + '</ul>';
 }
 
@@ -205,16 +233,16 @@ function renderProductDetail(category, product) {
 
   if (category === 'kickstands') {
     const bikesBlock = document.createElement('div');
-    bikesBlock.innerHTML = '<h3>適用一般車型</h3>' + textToList(product.compatibleBikesText);
+    bikesBlock.innerHTML = `<h3>${t('compatBikes')}</h3>` + textToList(product.compatibleBikesText);
     const ebikesBlock = document.createElement('div');
-    ebikesBlock.innerHTML = '<h3>適用電動車型</h3>' + textToList(product.compatibleEbikesText);
+    ebikesBlock.innerHTML = `<h3>${t('compatEbikes')}</h3>` + textToList(product.compatibleEbikesText);
     pane.appendChild(bikesBlock);
     pane.appendChild(ebikesBlock);
     return;
   }
 
   const toggleLabel = document.createElement('label');
-  toggleLabel.innerHTML = '<input type="checkbox" id="byProductShowAll"> 顯示全部(含不適用)';
+  toggleLabel.innerHTML = `<input type="checkbox" id="byProductShowAll"> ${t('showAll')}`;
   pane.appendChild(toggleLabel);
 
   const grouped = document.createElement('div');
@@ -259,6 +287,7 @@ function setupByProductView() {
   const searchInput = document.getElementById('productSearch');
   const optionsList = document.getElementById('productOptions');
   let currentCategory = 'fenders';
+  let currentProduct = null;
 
   function renderOptions(filterText) {
     const items = DATA[currentCategory].filter((p) =>
@@ -268,18 +297,26 @@ function setupByProductView() {
     items.forEach((item) => {
       const li = document.createElement('li');
       li.textContent = item.name;
-      li.addEventListener('click', () => renderProductDetail(currentCategory, item));
+      li.addEventListener('click', () => {
+        currentProduct = item;
+        renderProductDetail(currentCategory, item);
+      });
       optionsList.appendChild(li);
     });
   }
 
+  refreshByProduct = () => {
+    if (currentProduct) renderProductDetail(currentCategory, currentProduct);
+  };
+
   categoryTabs.forEach((tab) => {
     tab.addEventListener('click', () => {
-      categoryTabs.forEach((t) => t.classList.remove('active'));
+      categoryTabs.forEach((each) => each.classList.remove('active'));
       tab.classList.add('active');
       currentCategory = tab.dataset.category;
+      currentProduct = null;
       searchInput.value = '';
-      document.getElementById('productDetail').innerHTML = '<p class="empty-hint">請從左側選擇一個產品</p>';
+      document.getElementById('productDetail').innerHTML = `<p class="empty-hint">${t('selectProduct')}</p>`;
       renderOptions('');
     });
   });
@@ -290,13 +327,15 @@ function setupByProductView() {
 
 async function main() {
   DATA = await loadData();
-  renderLegend(DATA.legend);
+  applyI18n();
+  renderLegend();
   setupModeTabs();
+  setupLangToggle();
   setupByModelView();
   setupByProductView();
 }
 
 main().catch((err) => {
-  document.body.innerHTML = `<p style="color:red;padding:2rem">載入資料失敗:${err.message}</p>`;
+  document.body.innerHTML = `<p style="color:red;padding:2rem">${t('loadError')}: ${err.message}</p>`;
   console.error(err);
 });
