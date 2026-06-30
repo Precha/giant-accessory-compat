@@ -22,7 +22,7 @@ body {
   position: relative;
 }
 
-.app-header h1 { margin: 0 0 0.5rem; font-size: 1.25rem; }
+.app-header h1 { margin: 0 0 0.5rem; font-size: 1.25rem; padding-right: 5rem; }
 
 .lang-toggle {
   position: absolute;
