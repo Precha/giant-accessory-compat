@@ -43,6 +43,8 @@ function applyI18n() {
     el.placeholder = t(el.dataset.i18nPlaceholder);
   });
   document.documentElement.lang = getLang() === 'zh' ? 'zh-Hant' : 'en';
+  const langBtn = document.getElementById('langToggle');
+  if (langBtn) langBtn.textContent = getLang() === 'en' ? '中文' : 'EN';
 }
 
 function setupLangToggle() {
@@ -50,7 +52,6 @@ function setupLangToggle() {
   btn.addEventListener('click', () => {
     const next = getLang() === 'en' ? 'zh' : 'en';
     setLang(next);
-    btn.textContent = next === 'en' ? '中文' : 'EN';
     applyI18n();
     renderLegend();
     refreshByModel();
