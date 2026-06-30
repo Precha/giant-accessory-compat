@@ -19,9 +19,23 @@ body {
   padding: 1rem 1.5rem;
   background: #fff;
   border-bottom: 1px solid var(--color-border);
+  position: relative;
 }
 
 .app-header h1 { margin: 0 0 0.5rem; font-size: 1.25rem; }
+
+.lang-toggle {
+  position: absolute;
+  top: 1rem;
+  right: 1.5rem;
+  border: 1px solid var(--color-border);
+  background: #fff;
+  padding: 0.25rem 0.75rem;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.85rem;
+}
+.lang-toggle:hover { background: #f0f4ff; }
 
 .legend { display: flex; gap: 1rem; flex-wrap: wrap; font-size: 0.85rem; }
 .legend-item { font-weight: 600; }
